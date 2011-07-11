@@ -1,4 +1,19 @@
 ProjectMayhem::Application.routes.draw do
+  
+  get "pages/about"
+
+  get "pages/why"
+
+  get "pages/how"
+
+  get "pages/home"
+  
+  match '/about',   :to => 'pages#about'
+  match '/how',    :to => 'pages#how'
+  match '/why',  :to => 'pages#why'
+
+  root :to => "pages#home"
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
