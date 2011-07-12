@@ -3,11 +3,11 @@
 /* ============================== */
 
 	body {
-		
+		font-family: Helvetica, Arial, sans-serif;
 	}
 	
 	#header {
-		background: blue;
+		background: #0555a3;
 		padding-top: 20px;
 		color: white;
 		height: 60px;
@@ -45,6 +45,25 @@
 			text-decoration: none;
 		}
 
+
+
+	#splash {
+		padding-top: 40px;
+	}
+	
+  		#splash .sevencol {
+  			float: right;
+  			
+  		}
+		
+			#splash .sevencol h2 {
+				font-size: 50px;
+				line-height: 1.5;
+			}
+			
+			#splash .sevencol p {
+				font-size: 19px;
+			}
 	
 	#featured-quote {
 		clear: both;
