@@ -6,14 +6,45 @@
 		
 	}
 	
-	nav, nav ul, nav ul li {
-		float:left;
-		display: inline;
-		padding-right: 5px;
+	#header {
+		background: blue;
+		padding-top: 20px;
+		color: white;
+		height: 60px;
+		padding-bottom: 20px;
 	}
+	
+		#header h2 {
+			display:block;
+			margin-top:20px;
+			padding-bottom:30px;
+			padding-right:50px;
+			width:250px;
+		}
+	
+	nav {
+		float: right;
+	}
+	
+		nav li {
+		   	float:left;
+			font-size:18px;
+			height:35px;
+			line-height:35px;
+			list-style-type:none;
+			margin-right:25px;
+			margin-top:-30px;
+			padding-bottom:20px;
+			position:relative;
+			top:-30px;
+		}
+		
 		nav ul li a {
 			display: block;
+			color: white;
+			text-decoration: none;
 		}
+
 	
 	#featured-quote {
 		clear: both;
