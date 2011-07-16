@@ -1,15 +1,20 @@
 class PagesController < ApplicationController
-  
   def home
   end
-  
-  def about
+
+  def program
   end
 
-  def why
+  def staff
   end
 
-  def how
+  def community
+  end
+
+  def videos
+  end
+
+  def apply
   end
 
 end

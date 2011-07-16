@@ -1,16 +1,23 @@
 ProjectMayhem::Application.routes.draw do
   
-  get "pages/about"
-
-  get "pages/why"
-
-  get "pages/how"
-
   get "pages/home"
   
-  match '/about',   :to => 'pages#about'
-  match '/how',    :to => 'pages#how'
-  match '/why',  :to => 'pages#why'
+  get "pages/program"
+
+  get "pages/staff"
+
+  get "pages/community"
+
+  get "pages/videos"
+
+  get "pages/apply"
+  
+  match '/home', :to => 'pages#home'
+  match '/program',   :to => 'pages#program'
+  match '/staff',    :to => 'pages#staff'
+  match '/community',  :to => 'pages#community'
+  match '/videos', :to => 'pages#videos'
+  match '/apply', :to => 'pages#apply'
 
   root :to => "pages#home"
   
