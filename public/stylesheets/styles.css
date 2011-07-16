@@ -7,7 +7,7 @@ body {
 }
 
 h2 {
-	font-size: 21px;
+	font-size: 24px;
 	margin-bottom: 10px;
 }
 
@@ -32,6 +32,8 @@ p {
 	color: white;
 	height: 60px;
 	padding-bottom: 20px;
+	width: 100%;
+	z-index: 95;
 }
 
 	#header h2 {
@@ -160,7 +162,7 @@ nav {
     display: block;
     float: left;
     margin: auto 105px;
-    width: 80%;
+    width: 100%;
 	
 }
 
@@ -194,9 +196,25 @@ nav {
 	
 }
 
+	#jeffcohen h4 {
+		margin-bottom: 10px;
+	}
+	
+		#jeffcohen h4 strong {
+			color: #666666;
+		}
+	
+	.bio h3 {
+		font-size: 21px;
+	}
+
 #schedule {
 	
 }
+
+	#schedule li {
+		margin-bottom: 20px;
+	}
 
 #location {
 	
