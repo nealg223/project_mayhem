@@ -38,6 +38,7 @@ p {
 	position: relative;
 	z-index: 40000;
 	height: 90px;
+	border-bottom: 3px solid rgba(0, 0, 0, 0.2);
 	
 }
 
@@ -98,6 +99,10 @@ nav {
 	#value-prop h1 strong {
 		text-transform: uppercase;
 		font-size: 60px;
+	}
+	
+	#value-prop h2 {
+		text-align: center;
 	}
 
 
