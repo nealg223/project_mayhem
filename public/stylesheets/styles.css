@@ -219,6 +219,16 @@ nav {
 	height: 15px;
 }
 
+/*====== Community Page CSS ======== */
+
+.row-1 {
+	width: 800px;
+}
+
+	.row-1 img {
+		display: inline;
+		width: 128px;
+	}
 
 footer {
 	clear: both;
