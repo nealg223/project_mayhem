@@ -44,6 +44,16 @@ p {
 	margin-bottom: 18px;
 }
 
+.img-left {
+	float:left;
+}
+
+.team-title {
+	float:left;
+	width: 430px;
+}
+
+
 #main-header {
 	background: url("../images/nav_texture.png") repeat;
 	padding-top: 22px;
