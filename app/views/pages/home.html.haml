@@ -17,7 +17,21 @@
               .button
                 %h3 Here's how.
         %li.pane-1
-          %h1 Program Panel
+          .container
+            %h1 Program Panel
+            .program-header
+              #program-header-4
+                %h2
+                  %a{:href => "#space"} Space
+              #program-header-3
+                %h2
+                  %a{:href => "#students"} Students
+              #program-header-2
+                %h2
+                  %a{:href => "#ca-schedule"} Schedule
+              #program-header-1
+                %h2
+                  %a{:href => "#overview"} Overview
           %a.back{:href => "#", :title => "$(...).scrollTo( 0, 800, {queue:true} );"} go back
         %li.pane-2
           %h1 Staff Panel
