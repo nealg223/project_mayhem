@@ -16,5 +16,8 @@ class PagesController < ApplicationController
 
   def apply
   end
+  
+  def download
+  end
 
 end
