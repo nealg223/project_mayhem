@@ -1,0 +1,169 @@
+
+<div class="container">
+  <div class="program-header">
+    <div id="program-header-4">
+      <h2>Space</h2>
+    </div>
+    <div id="program-header-3">
+      <h2>Students</h2>
+    </div>
+    <div id="program-header-2">
+      <h2>Schedule</h2>
+    </div>
+    <div id="program-header-1">
+      <h2>Overview</h2>
+    </div>
+  </div>
+
+
+
+  <div id="overview">
+    
+    <div id="part-1">
+      <h1>Learn. Build. Solve</h1>
+      <p> Coding is not just for the chosen few.  Anyone can learn with the right environment, resources and dedication - we created Code Academy to do just that. We teach aspiring developers and entrepreneurs how to build their own web applications with <a href="#">Ruby on Rails.</a></p>
+      <p>&#34;Most&#34; people read books, tutorials, do workshops, and spend lots of time (and $$$) without the necessary resources, motivation and environment to make sure what they learn sticks.  Code Academy takes those missing elements and makes them the priority.</p>
+      <p> We are beginner-focused, collaborative, and intensive.  We provide you with everything necessary for coding: computers, software, and an environment (link to space) that makes learning and productivity unavoidable. You&#39;ll learn more in 12 weeks than most do in a year.</p>
+      <ul id="schedule-recap" class="callout">
+        <li>Fall Class: Oct. 3rd-Dec. 21, 2011</li>
+        <li>12 weeks</li>
+        <li>MWF, 8:00-12pm</li>
+      </ul>
+    </div>
+    
+    <div id="part-2">
+      <h1>What You Will Learn:</h1>
+      <ul id="skills">
+        <li>The <a href="#">Ruby on Rails</a> Web Application Framework</li>
+        <li>HTML(5) - The new standard for web markup.</li>
+        <li>CSS(3) - A powerful styling language for web design.</li>
+        <li>Application Wireframing/Prototyping</li>
+        <li>Test Driven Development/Agile Methodology</li>
+        <li>Software Product Development</li>
+        <li>Business Model Development</li>
+        <li>Presentation Skills</li>
+      </ul>
+      <p class="callout">&quot;Amazon&#39;s doing it. Twitter&#39;s doing it. EA&#39;s doing it. New York Times, 37 signals, LivingSocial, Funny or Die, Yahoo, JP Morgan, NASA, half the hot startups you can think of... they&#39;re all doing it.&quot; - Udemy.com</p>
+    </div>
+    
+    <div id="part-3">
+      <h1>What You Will Build</h1>
+      <p>Take the app ideas that are in your head, and make them real on the web.</p>
+      <p>Build a portfolio of projects that represent your progress as an application developer.</p>
+      <h3>For example</h3>
+      <ul id="build">
+        <li>Create your own social network site</li>
+        <li>Start an online e-commerce store</li>
+        <li>Launch a project management suite</li>
+        <li>Build your own blog</li>
+      </ul>
+    </div>
+    
+    <div id="part-4">
+      <h1>Applying Your New Skills</h1>
+      <h2>Start your own company</h2>
+      <p>By taking advantage of the resources and knowledge given to you at Code Academy, you’ll have the capacity to prototype your own web application without having to pay or rely on someone else to do it. At minimum, you’ll have a better understanding of the software development process to lead and organize a team as a founder of a tech startup.</p>
+      <h2>Get a job.</h2>
+      <p>Start-ups, development shops, and larger tech companies are all interested in people who have experience and a passion for building software, especially with the Ruby on Rails framework. People who have both the necessary business skills and technical foundation are a rare and valuable breed in the current employment landscape. This is what Code Academy will teach you, and as a result, will make you miles more marketable and unique to some of the best workplaces in Chicago.</p>
+      <h2>It's fun.</h2>
+      <p>You are on Facebook 36 hours a day, you tweet, you blog... but wouldn’t it be fun if you came up with the next big thing?  With Code Academy, you will no longer be just an admirer of what code produces.  There’s no greater thrill than being able to take all the ideas you’ve had in the back of your head and turn them into something tangible and real.</p>
+      <h2>It's rewarding.</h2>
+      <p>Code Academy is an unprecedented opportunity. It gives you the chance to interact with the best in the Chicago entrepreneurial and tech communities, and opens doors to networks you would not have encountered otherwise. Additionally, with the quality of the instruction and experience you will receive, Code Academy will unlock your perspective in terms of what you think you can accomplish.</p>
+    </div>
+  </div>
+  
+  <div class="ca-schedule">
+    <h1>The most immersive curriculum, ever.</h1>
+    <div id="daily-schedule">
+      <ul id="dates">
+        <li>Monday, Wednesday, Friday</li>
+      </ul>
+      <ul id="agenda">
+        <li>Stand-up Meeting</li>
+        <li>Project planning</li>
+        <li>Pair programming</li>
+        <li>Mentor workshops</li>
+        <li>Tutorial walkthroughs</li>
+        <li>Code review</li>
+        <li>Guest instructors</li>
+        <li>Entrepreneurship and business application lectures</li>
+      </ul>
+      
+      <ul id="outside-class" class="callout">
+        <li>Collaboration in the space on projects</li>
+        <li>Get advice and support from mentor, staff and instructor</li>
+        <li>Optional evening workshops hosted guest lecturers</li>
+      </ul>
+      
+      <!--><ul id="workshops" class="callout">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>-->
+    </div>
+    
+    <div id="weekly-schedule">
+      <h2>Learner Mode</h2>
+        <li>Week 1: Intro to Code Academy and programming with Ruby</li>
+        <li>Week 2: The basics of Ruby on Rails applications</li>
+        <li>Week 3: Running a Rails project and application</li>
+        <li>Week 4: Getting your feet wet with sample projects and tutorials</li>
+        <li>Week 5: Waist deep with sample projects and tutorials</li>
+        <li>Week 6: Reviewing and refining what you’ve learned</li>
+        <li>Week 7: Preparing for your own project</li>
+      
+      <h2>Start-Up Mode</h2>
+        <li>Week 8: Planning/Setup</li>
+        <li>Week 9: UI Design</li>
+        <li>Week 10: Coding the features and functionality</li>
+        <li>Week 11: Polishing your prototype</li>
+        <li>Week 12: Final presentation</li>
+     
+      <h2>Demo Day</h2>
+      <p>This is the grand finale.  For the final presentation, we invite the best of the Chicago entrepreneurship and tech communities - including CEOs, entrepreneurs, developers, and investors - for you to showcase your product and your learning.  You walk away with the chance to get invested in, get hired by a company, or join an apprenticeship at a top development firm.</p>
+     
+    </div>
+  </div>
+  
+  <div id="students">
+    <h1>Does this sound like you?</h1>
+    <h2>The Anti-Quitter</h2>
+    <p> Passionate. You care about doing meaningful work. You have a burning desire to solve problems. You want to make a dent in the universe.</p>
+    <p> Tenacious. You can withstand the demand of a fast-paced learning environment. You are diligent, focused and persistent. If you're quick to give up, <strong>this isn&#39;t for you.</strong></p>
+    <p>We are accepting 12 students for the Fall 2011 class. Applicants should be available to meet on-location in Chicago for the duration of the program.</p>
+  </div>
+  
+  <div id="space">
+    <h1>The best environment you&#39;ve ever done work in.</h1>
+    <h3>We looked at some of the top software development and start-up environments around, and have designed the ultimate blend of collaborative and functional furniture and resources. We&#39;re nervous about having to kick you all out after hours.</h3>
+    
+    <div class="equipment">
+      <div id="imacs">
+        <img src="#" alt="iMacs">
+        <p>Write something here Mike.</p>
+      </div>
+      <div id="pairing-stations">
+        <img src="#" alt="pairing stations">
+        <p>Write something here Mike.</p>
+      </div>
+      <div id="great-chairs">
+        <img src="#" alt="great chairs">
+        <p>Write something here Mike.</p>
+      </div>
+      <div id="whiteboards">
+        <img src="#" alt="whiteboards">
+        <p>Write something here Mike.</p>
+      </div>
+      <div id="conference-tables">
+        <img src="#" alt="conference tables">
+        <p>Write something here Mike.</p>
+      </div>
+      <div id="couches">
+        <img src="#" alt="couches">
+        <p>Write something here Mike.</p>
+      </div>
+    </div>
+  </div>
+</div>
