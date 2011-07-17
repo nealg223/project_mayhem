@@ -3,7 +3,7 @@ class UserMailer < ActionMailer::Base
   
   def welcome_email(user)
     @user = user
-    @url = "http://codeacademy.org/login"
+    @url = "http://codeacademy.org/subscribe"
     attachments["brochure.pdf"] = File.read("#{Rails.root}/public/pdf/brochure.pdf")
     mail(:to => user.email,
          :subject => "Code Academy Brochure")

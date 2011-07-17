@@ -47,7 +47,7 @@ class UsersController < ApplicationController
         # Tell the UserMailer to send a welcome Email after save
         UserMailer.welcome_email(@user).deliver
         
-        format.html { redirect_to(@user, :notice => 'User was successfully created.') }
+        format.html { redirect_to(@user, :notice => 'Email sent to ') }
         format.xml  { render :xml => @user, :status => :created, :location => @user }
       else
         format.html { render :action => "new" }
