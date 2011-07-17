@@ -84,8 +84,23 @@ jQuery(function( $ ){
 	// JUST THE MULTIPLE OPTIONS. THIS CODE IS UGLY.
 	var $paneTarget = $('#pane-target');
 	
+	$('#home-selector').click(function(){
+		$paneTarget.stop().scrollTo( 'li:eq(0)', 300 );
+	});
 	$('#program-selector').click(function(){
-		$paneTarget.stop().scrollTo( 'li:eq(4)', 800 );
+		$paneTarget.stop().scrollTo( 'li:eq(1)', 300 );
+	});
+	$('#staff-selector').click(function(){
+		$paneTarget.stop().scrollTo( 'li:eq(2)', 300 );
+	});
+	$('#community-selector').click(function(){
+		$paneTarget.stop().scrollTo( 'li:eq(3)', 300 );
+	});
+	$('#videos-selector').click(function(){
+		$paneTarget.stop().scrollTo( 'li:eq(4)', 300 );
+	});
+	$('#apply-selector').click(function(){
+		$paneTarget.stop().scrollTo( 'li:eq(5)', 300 );
 	});
 	
 	

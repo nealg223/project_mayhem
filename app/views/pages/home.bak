@@ -17,6 +17,25 @@
 </div -->
 
 
+.container
+  #splash-bg
+    #value-prop.wrapper
+      %img{:alt => "Welcome to Code Academy", :src => "../images/ca_logo_copy_03.png"}/
+      %h1.Fr
+        We teach passionate people how to build
+        %strong Web Applications
+      %h2
+        Beginner-focused.  12 weeks.  Downtown Chicago.
+        Code Academy is a game changer for your career.
+    .button
+      %h3 Download PDF
+    .button
+      %h3 Apply Now
+    #featured-quotes
+      %img{:alt => "Bill Pescatello", :src => "../images/bill_p.png"}/
+      %p
+
+
 	
 <div id="target-examples" class="section part">
 

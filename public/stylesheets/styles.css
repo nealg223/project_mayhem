@@ -10,6 +10,7 @@ body {
 	margin-left: 0;
 	margin-right: 0;
 	width: 960px;
+	
 }
 
 
@@ -45,18 +46,20 @@ p {
 }
 
 #main-header {
-	background: url("../images/nav_texture.png") repeat;
+	background: url("../images/head-bg.jpg") repeat;
 	padding-top: 22px;
 	position: relative;
 	z-index: 40000;
-	height: 90px;
+	height: 70px;
 	border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+	text-align:left;
 	
 }
+#logo {padding:15px 0 0 0;position:absolute;left:70px;height:50px;}
 
 .wrapper {
 	margin: 0 auto;
-	width: 870px;
+	width: 1070px;
 }
 
 	.wrapper h2 {
@@ -79,7 +82,7 @@ nav {
 		margin-top:-7px;
 		padding-bottom:20px;
 		position:relative;
-		top:-35px;
+		top:20px;
 	}
 	
 	nav ul li a {
@@ -173,44 +176,79 @@ nav {
 }
 
 
-
+#scroll-container {min-height:1200px;}
 
 div.section{
-	width:6000px;
+	width:98%;
 	padding:10px;
 	margin: 5px 0;
-	position:relative;
-	clear:both;
-	
-	border:4px solid red;
+	position:absolute;
+	overflow:auto;
 }
 	div.section h3{
 		margin-bottom:10px;
 	}
-	div.section li{
+	div.section .pane-0{
+		position:relative;
+		left:0;
+		width:25%;
+		height:600px;
 		float:left;
 	}
+	div.section .pane-1{
+	  position:relative;
+		width:25%;
+		height:600px;
+		float:left;
+		background-color:red;
+	}
+	div.section .pane-2{
+	  position:relative;
+		width:25%;
+		height:600px;
+		float:left;
+	}
+	div.section .pane-3{
+		position:relative;
+		width:25%;
+		height:600px;
+		float:left;
+	}
+	div.section .pane-4{
+		position:relative;
+    width:25%;
+		height:600px;
+		float:left;
+	}
+	div.section .pane-5{
+		position:relative;
+    width:25%;
+		height:600px;
+		float:left;
+	}
+	
 	div.pane{
 		overflow:hidden;
 		clear:left;
-		margin: 10px 0 0 10px;
-		position:relative;
-		width:6000px;
-		height:322px;
-		border:1px solid black;
+		margin: 10px 0px 0 10px;
+	  width:98%;
+		height:600px;
+	}
+	.pane ul {
+	  height:800px;
+	  width:10000px;
 	}
 ul.elements{
-	background-color:#5B739C;
+	background-color:#000;
+	width:10000px;
 }
+
 	ul.elements li{
-		width:600px;
-		height:200px;
+		height:100px;
 		font-weight:bolder;
-		border:1px black solid;
 		text-align:left;
 		padding:50px;
-		position:relative;
-		background-color:#DDD;
+		background-color:#fff;
 	}
 		ul.elements li a{
 			bottom:20px;
@@ -247,3 +285,5 @@ h3 span{
 	padding:1px;
 	margin-top:2px;
 }
+
+.footer_links a{color:#000 !important;}

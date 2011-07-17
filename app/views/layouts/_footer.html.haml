@@ -6,3 +6,14 @@
     %li Download PDF
     %li Twitter
     %li Facebook
+
+
+  %nav
+    %ul.footer_links
+      = link_to "Home", root_path
+      %li= link_to "Program", program_path
+      %li= link_to "Staff", staff_path
+      %li= link_to "Community", community_path
+      %li= link_to "Videos", videos_path
+      %li.last= link_to "Apply", apply_path
+    %div{:style => "clear:both;"}
