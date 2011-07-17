@@ -7,8 +7,20 @@ body {
 }
 
 .container {
-	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+	width: 960px;
 }
+
+
+.row {
+    margin: 0 auto;
+    max-width: 1140px;
+    min-width: 755px;
+    overflow: hidden;
+    width: 100%;
+}
+
 
 .Fr {
 	float: right;
@@ -110,6 +122,28 @@ nav {
 	}
 
 
+/* ======= Program Page CSS ======== */
+
+.program-header {
+	float: left;
+	clear: both;
+	width: 100%;
+	margin-left: 50px;
+}
+
+	#program-header-1, #program-header-2, #program-header-3, #program-header-4 {
+		display: inline;
+		cursor: pointer;
+		height: 195px;
+		width: 210px;
+		float: right;
+		background: purple;
+		margin-right: 5px;
+		margin-top: 15px;
+	}
+#overview {
+	clear: both;
+}
 
 
 /* ============================= */
