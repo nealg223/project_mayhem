@@ -4,21 +4,13 @@
 
 body {
 	font-family: Helvetica, Arial, sans-serif;
+	text-align: center;
 }
 
 .container {
 	margin-left: 0;
 	margin-right: 0;
 	width: 960px;
-}
-
-
-.row {
-    margin: 0 auto;
-    max-width: 1140px;
-    min-width: 755px;
-    overflow: hidden;
-    width: 100%;
 }
 
 
@@ -44,6 +36,20 @@ p {
 	margin-bottom: 18px;
 }
 
+ul li {
+	list-style-type: none;
+}
+
+.img-left {
+	float:left;
+}
+
+.team-title {
+	float:left;
+	width: 430px;
+}
+
+
 #main-header {
 	background: url("../images/nav_texture.png") repeat;
 	padding-top: 22px;
@@ -51,16 +57,18 @@ p {
 	z-index: 40000;
 	height: 90px;
 	border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+	text-align: left;
 	
 }
 
 .wrapper {
 	margin: 0 auto;
-	width: 870px;
+	width: 960px;
+	text-align: left;
 }
 
 	.wrapper h2 {
-		color: white;
+		color: black;
 		margin-top: 26px;
 	}
 
@@ -125,25 +133,50 @@ nav {
 /* ======= Program Page CSS ======== */
 
 .program-header {
-	float: left;
 	clear: both;
 	width: 100%;
-	margin-left: 50px;
+	float: left;
+	text-align: center;
 }
 
+	.program-header h2 {
+		vertical-align: baseline;
+	}
 	#program-header-1, #program-header-2, #program-header-3, #program-header-4 {
 		display: inline;
 		cursor: pointer;
 		height: 195px;
 		width: 210px;
 		float: right;
-		background: purple;
+		background: #dedede;
 		margin-right: 5px;
 		margin-top: 15px;
 	}
-#overview {
+#overview, #ca-schedule, #students, #space {
 	clear: both;
+	padding-left: 98px;
+	position: relative;
+	top: 50px;
 }
+
+	#part-1, #part-2, #part-3, #part-4 {
+		margin-top: 50px;
+	}
+
+#weekly-schedule li {
+	list-style-type: none;
+}
+
+#ca-students h1, #students h1, #space h1, #space h3 {
+	text-align: center;
+}
+
+footer {
+	clear: both;
+	text-align: left;
+}
+
+
 
 
 /* ============================= */
