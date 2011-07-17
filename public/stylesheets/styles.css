@@ -167,6 +167,10 @@ nav {
 	list-style-type: none;
 }
 
+#ca-students h1, #students h1, #space h1, #space h3 {
+	text-align: center;
+}
+
 footer {
 	clear: both;
 	text-align: left;
