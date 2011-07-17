@@ -21,6 +21,8 @@ ProjectMayhem::Application.routes.draw do
 
   root :to => "pages#home"
   
+  match "send_email" => "email#send_it"
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
