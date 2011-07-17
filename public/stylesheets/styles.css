@@ -75,6 +75,10 @@ nav {
 		color: white;
 		text-decoration: none;
 	}
+	
+		nav li.last a {
+			color: red;
+		}
 
 #splash-bg {
 	width: 100%;
