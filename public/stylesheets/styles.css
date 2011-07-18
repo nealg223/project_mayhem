@@ -4,7 +4,7 @@
 
 body {
 	font-family: Helvetica, Arial, sans-serif;
-	text-align: center;
+	text-align: left;
 }
 
 .Fr {
@@ -25,13 +25,18 @@ h3 {
 p {
 	font-size: 16px;
 	color: #333333;
-	font-weight: lighter;
+	font-weight: normal;
 	margin-bottom: 18px;
 	text-align: left;
+	line-height: 21px;
 }
 
 ul li {
 	list-style-type: none;
+}
+
+p a, li a {
+	color: #C32127;
 }
 
 .img-left {
@@ -167,6 +172,10 @@ nav {
 	
 		#part-1 h1 {
 			font-size: 50px;
+		}
+		
+		#part-1 p {
+			margin-top: 18px;
 		}
 
 #weekly-schedule li {
