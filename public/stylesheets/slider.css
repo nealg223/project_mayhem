@@ -25,7 +25,7 @@ h3 { border-bottom: 1px solid silver; margin-bottom: 5px; padding-bottom: 3px; t
 
 body {
 	font-family: Verdana, Arial;
-	background: #ebebeb url("images/body-bg.png") repeat-y center;
+	background: #ebebeb url("../images/body-bg.png") repeat-y center;
 	color: #000;
 	width: 800px;
 	margin: auto;
@@ -139,9 +139,9 @@ body {
 }
 
 .stripNavL {
-	background: url("images/arrow-left.gif") no-repeat center;
+	background: url("../images/arrow-left.gif") no-repeat center;
 }
 
 .stripNavR {
-	background: url("images/arrow-right.gif") no-repeat center;
+	background: url("../images/arrow-right.gif") no-repeat center;
 }
