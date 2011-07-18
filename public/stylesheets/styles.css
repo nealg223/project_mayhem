@@ -253,6 +253,12 @@ nav {
 		color: white;
 		width: 100px;
 	}
+	
+	.entrepreneurs a, .developers a, .students a, .investors a {
+		text-decoration: none;
+		color: white;
+		cursor: pointer;
+	}
 
 footer {
 	clear: both;
