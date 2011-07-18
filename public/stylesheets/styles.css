@@ -232,6 +232,28 @@ nav {
 		margin-right: 10px;
 	}
 
+/* ====== Video Page CSS ====== */
+
+
+
+.entrepreneurs, .developers, .students, .investors {
+	text-align: left;
+}
+
+	.entrepreneurs h2, .developers h2, .students h2, .investors h2 {
+		padding: 10px;
+		background-color: green;
+		color: white;
+		width: 200px;
+	}
+	
+	.entrepreneurs h3, .developers h3, .students h3, .investors h3 {
+		padding: 7px;
+		background-color: blue;
+		color: white;
+		width: 100px;
+	}
+
 footer {
 	clear: both;
 	text-align: left;
