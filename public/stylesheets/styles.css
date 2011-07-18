@@ -178,8 +178,17 @@ nav {
 			margin-top: 18px;
 		}
 
+#weekly-schedule {
+	clear: both;
+}
+
+#dates img {
+	width: 245px;
+}
+
 #weekly-schedule li {
 	list-style-type: none;
+	text-align: left;
 }
 
 #ca-students h1, #students h1, #space h1, #space h3 {

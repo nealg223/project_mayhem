@@ -72,8 +72,9 @@
           %h1 The most immersive curriculum, ever.
           #daily-schedule
             %ul#dates
-              %li Monday, Wednesday, Friday
+              /%img{:alt => "Monday, Wednesday, Friday", :src => "../images/mwf_03.png"}/
             %ul#agenda
+              %h2 Daily Schedule
               %li Stand-up Meeting
               %li Project planning
               %li Pair programming
@@ -123,7 +124,7 @@
       .panel{:title => "Space"}
         .wrapper
           %h1 The best environment you've ever done work in.
-          %h3 We looked at some of the top software development and start-up environments around, and have designed the ultimate blend of collaborative and functional furniture and resources. We're nervous about having to kick you all out after hours.
+          %h3#lead We looked at some of the top software development and start-up environments around, and have designed the ultimate blend of collaborative and functional furniture and resources. We're nervous about having to kick you all out after hours.
           .equipment
             #imacs
               %img{:alt => "iMacs", :src => "#"}
