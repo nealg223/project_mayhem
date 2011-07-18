@@ -21,10 +21,18 @@ a:focus { outline:none }
 
 img { border: 0 }
 
-h3 { border-bottom: 1px solid silver; margin-bottom: 5px; padding-bottom: 3px; text-align: left }
+h1 {
+	font-size: 50px;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+h3 { border-bottom: 1px solid silver; margin-bottom: 5px; padding-bottom: 3px; text-align: center }
 
 body {
-	font-family: Verdana, Arial;
+	font-family: Helvetica Neue, Helvetica, Arial;
 	background: #ebebeb url("../images/body-bg.png") repeat-y center;
 	color: #000;
 	width: 800px;
@@ -51,12 +59,11 @@ body {
 .stripViewer { /* This is the viewing window */
 	position: relative;
 	overflow: hidden; 
-	border: 5px solid #000; /* this is the border. should have the same value for the links */
+	/*border: 5px solid #000; /* this is the border. should have the same value for the links */
 	margin: auto;
 	width: 700px; /* Also specified in  .stripViewer .panelContainer .panel  below */
-	height: 460px;
 	clear: both;
-	background: #fff;
+	background: #f8f8f8;
 }
 
 .stripViewer .panelContainer { /* This is the big long container used to house your end-to-end divs. Width is calculated and specified by the JS  */
