@@ -1,14 +1,6 @@
 * { margin: 0; padding: 0 }
 /* I've used a hard CSS reset above, but you should consider a more sophisticated reset, such as this one: http://meyerweb.com/eric/thoughts/2007/05/01/reset-reloaded/ */
 
-p { text-align: left; margin: 15px 0 }
-
-p, ul { font-size: 13px; line-height: 1.4em } 
-
-p a, li a { color: #39c; text-decoration: none }
-
-p.intro { border-bottom: 1px solid #ccc; margin-bottom: 20px; padding: 20px 0 30px 0; text-align: center; width: 100% }
-
 p#cross-links { text-align: center }
 
 p#cross-links { border-bottom: 1px solid #ccc; margin-bottom: 30px; padding-bottom: 30px }
@@ -29,7 +21,9 @@ h2 {
 	font-size: 24px;
 }
 
-h3 { border-bottom: 1px solid silver; margin-bottom: 5px; padding-bottom: 3px; text-align: center }
+h3#lead { border-bottom: 1px solid silver; border-spacing: 5px; margin-bottom: 5px; padding-bottom: 3px; text-align: center }
+
+h3 { border-bottom: 1px solid silver; border-spacing: 5px; margin-bottom: 5px; padding-bottom: 3px; text-align: center }
 
 body {
 	font-family: Helvetica Neue, Helvetica, Arial;
@@ -40,6 +34,14 @@ body {
 	text-align: center;
 	padding-bottom: 20px;
 }
+
+p { text-align: left; margin: 15px 0 }
+
+p, ul { font-size: 16px; line-height: 1.4em } 
+
+p a, li a { color: #39c; text-decoration: none }
+
+p.intro { border-bottom: 1px solid #ccc; margin-bottom: 20px; padding: 20px 0 30px 0; text-align: center; width: 100% }
 
 .stripViewer .panelContainer .panel ul {
 	text-align: left;
@@ -110,11 +112,16 @@ body {
 	padding: 0 15px;
 }
 
-.stripNav li.tab1 a { background: #60f }
-.stripNav li.tab2 a { background: #60c }
-.stripNav li.tab3 a { background: #63f }
-.stripNav li.tab4 a { background: #63c }
-.stripNav li.tab5 a { background: #00e }
+/* ====== Tabs Styles At The Top ====== */
+
+.stripNav li.tab1, .stripNav li.tab2, .stripNav li.tab3, .stripNav li.tab4 {
+	background: #f8f8f8;
+}
+
+.stripNav li a {
+	font-size: 28px;
+	padding: 40px 10px
+}
 
 .stripNav li a:hover {
 	background: #333;
