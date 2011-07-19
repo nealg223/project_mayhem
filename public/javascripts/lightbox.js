@@ -4,7 +4,7 @@ this.ie=document.all;
 this.ns6=document.getElementById&&!document.all;
 this.closeHandle=document.getElementById("fsLightboxClose"+_1.form);
 this.handle=document.createElement("div");
-this.handle.style.background="#000";
+this.handle.style.background="red";
 this.handle.style.border="#FFF solid 2px";
 if(_1.handlePosition=="right"){
 this.handle.style.right="0px";
@@ -105,7 +105,7 @@ this.fadeOverlay=document.createElement("div");
 this.fadeOverlay.style.display="none";
 this.fadeOverlay.style.zIndex="1";
 this.fadeOverlay.style.position="absolute";
-this.fadeOverlay.style.background="#000";
+this.fadeOverlay.style.background="red";
 this.fadeOverlay.style.overflow="hidden";
 this.fadeOverlay.innerHTML="&nbsp";
 this.fadeOverlay.onclick=function(){

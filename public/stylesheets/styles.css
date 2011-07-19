@@ -104,6 +104,19 @@ ul {
 	text-align:left;
 	
 }
+
+
+#main-footer {
+	background: url("../images/head-bg.jpg") repeat;
+	padding-bottom: 22px;
+	position: relative;
+	z-index: 40000;
+	height: 70px;
+	border-top: 3px solid rgba(0, 0, 0, 0.2);
+	text-align:left;
+	
+}
+
 #logo {padding:15px 0 0 0;position:absolute;left:70px;height:50px;}
 
 .wrapper {
