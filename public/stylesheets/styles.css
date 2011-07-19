@@ -3,8 +3,9 @@
 /* ============================== */
 
 body {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: Gill Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
 	text-align: left;
+	background: url(../images/8bit_bg_03.png) repeat;
 }
 
 .Fr {
@@ -30,7 +31,6 @@ p {
 	text-align: left;
 	line-height: 21px;
 	*/
-	font-family: "Gill Sans","Lucida Grande","Lucida Sans Unicode",Arial,Helvetica,sans-serif;
 	font-size: 20px;
 	font-weight: 100;
 	line-height: 24px;
