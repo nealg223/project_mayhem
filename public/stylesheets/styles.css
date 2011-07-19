@@ -248,19 +248,39 @@ nav {
 
 
 ul#instructor {
-	width: 800px;
+	width: 100%;
 	clear: both;
 }
 
+	#instructor li a {
+		float: left;
+		width: 204px;
+		margin-left: 35px;
+	}
+
+	li.content {
+		float: left;
+		width: 850px;
+		margin-top: 50px;
+	}
+
 ul#mentor-list {
 	float: right;
-	width: 800px;
+	width: 100%;
 	clear: both;
 }
 
 .intro {
 	clear: both;
+	width: 960px;
+	margin: 0 auto;
+	text-align: center;
 }
+
+	.intro h3 {
+		text-align: center;
+		margin: 25px 0px;
+	}
 
 	li.bio {
 		background-image: none;
@@ -282,6 +302,8 @@ ul#mentor-list {
 			
 			li.bio a .role {
 				font-size: 14px;
+				line-height: 1;
+				color: #000;
 			}
 			
 #leadership {
