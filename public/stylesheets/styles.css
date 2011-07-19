@@ -260,10 +260,18 @@ nav {
 }
 
 
-ul#instructor {
-	width: 100%;
+ul#instructor, ul#mentor-list, ul#leadership {
+	background: #fff;
 	clear: both;
+	margin: auto 58px;
 }
+	#instructor img {
+		margin: 20px 0px;
+	}
+
+	#instructor h2 {
+		font-size: 24px;
+	}
 
 	#instructor li a {
 		float: left;
@@ -277,11 +285,6 @@ ul#instructor {
 		margin-top: 50px;
 	}
 
-ul#mentor-list {
-	float: right;
-	width: 100%;
-	clear: both;
-}
 
 .intro {
 	clear: both;
@@ -291,8 +294,11 @@ ul#mentor-list {
 }
 
 	.intro h3 {
+		font-weight: 100;
+		letter-spacing: 0.5px;
+		line-height: 1.3em;
+		margin: 25px 0;
 		text-align: center;
-		margin: 25px 0px;
 	}
 
 	li.bio {
@@ -319,14 +325,17 @@ ul#mentor-list {
 				color: #000;
 			}
 			
-#leadership {
-	clear: both;
-}
 
 .cl-15 {
 	clear: both;
 	font-size: 1px;
 	height: 15px;
+}
+
+.cl-50 {
+	clear: both;
+	font-size: 1px;
+	height: 50px;
 }
 
 /*====== Community Page CSS ======== */
