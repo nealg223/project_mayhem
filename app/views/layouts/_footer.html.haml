@@ -18,4 +18,13 @@
       %li.last= link_to "Apply", apply_path
     %div{:style => "clear:both;"}
     
-    
+    #fsLightbox1096528.fsLightbox{:style => "display:none;"}
+      %div{:align => "bottomRight", :style => "padding:5px;"}
+        %a#fsLightboxClose1096528{:href => "#", :style => "color:#000", :title => "close"} [close]
+      %div{:style => "height:450px; padding-top:20px; overflow:auto;"}
+        %script{:src => "http://www.formstack.com/forms/js.php?1096528-6YgVaD43vw-v2", :type => "text/javascript"}
+    / %script{:src => "http://www.formstack.com/forms/js/lightbox.js", :type => "text/javascript"}
+    :javascript
+      var fsLightbox1096528 = new FSLightbox({form: 1096528, handleText: "APPLY", handlePosition: "bottomRight",
+          handleImage: "http://www.formstack.com/forms/lightboxHandle.php?str=APPLY"
+      });
