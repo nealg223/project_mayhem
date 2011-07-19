@@ -259,33 +259,6 @@ nav {
 	text-align: left;
 }
 
-
-ul#instructor, ul#mentor-list, ul#leadership {
-	background: #fff;
-	clear: both;
-	margin: auto 58px;
-}
-	#instructor img {
-		margin: 20px 0px;
-	}
-
-	#instructor h2 {
-		font-size: 24px;
-	}
-
-	#instructor li a {
-		float: left;
-		width: 204px;
-		margin-left: 35px;
-	}
-
-	li.content {
-		float: left;
-		width: 850px;
-		margin-top: 50px;
-	}
-
-
 .intro {
 	clear: both;
 	width: 960px;
@@ -300,7 +273,7 @@ ul#instructor, ul#mentor-list, ul#leadership {
 		margin: 25px 0;
 		text-align: center;
 	}
-
+	
 	li.bio {
 		background-image: none;
 		float: left;
@@ -324,7 +297,69 @@ ul#instructor, ul#mentor-list, ul#leadership {
 				line-height: 1;
 				color: #000;
 			}
-			
+
+
+#instructor {
+	background: #fff;
+	clear: both;
+	margin: auto 58px;
+	height: 250px;
+}
+
+	#instructor img {
+		margin: 20px 0px;
+	}
+
+	#instructor h2 {
+		font-size: 24px;
+	}
+
+	#instructor li a {
+		float: left;
+		width: 204px;
+		margin-left: 35px;
+	}
+
+	li.content {
+		float: left;
+		width: 850px;
+		margin-top: 50px;
+	}
+	
+
+#mentor-list {
+	background: #fff;
+	clear: both;
+	margin: auto 58px;
+	height: 300px;
+}
+
+	#mentor-list ul {
+		margin-left: 50px;
+	}
+
+	#mentor-list li.bio {
+		margin-top: 50px;
+	}
+	
+	.last {
+		margin-right: 0px!important;
+	}
+
+#leadership {
+	background: #fff;
+	clear: both;
+	margin: auto 58px;
+	height: 300px;
+}
+
+	#leadership ul {
+		padding-left: 150px;
+	}
+	
+	#leadership li.bio {
+		margin-top: 50px;
+	}
 
 .cl-15 {
 	clear: both;
