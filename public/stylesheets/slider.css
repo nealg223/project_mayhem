@@ -34,16 +34,16 @@ h3#lead { border-bottom: 1px solid silver;
 
 h3 { border-bottom: 1px solid silver; border-spacing: 5px; margin-bottom: 5px; padding-bottom: 3px; text-align: left }
 
-body {
-	font-family: Helvetica Neue, Helvetica, Arial;
-	font-weight: normal;
-	background: #ebebeb url("../images/body-bg.png") repeat-y center;
-	color: #000;
-	width: 800px;
-	margin: auto;
-	text-align: center;
-	padding-bottom: 20px;
-}
+/*body {
+  font-family: Helvetica Neue, Helvetica, Arial;
+  font-weight: normal;
+  background: #ebebeb url("../images/body-bg.png") repeat-y center;
+  color: #000;
+  width: 800px;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 20px;
+}*/
 
 p { text-align: left; margin: 15px 0 }
 
@@ -75,7 +75,7 @@ p.intro { border-bottom: 1px solid #ccc; margin-bottom: 20px; padding: 20px 0 30
 	margin: auto;
 	width: 700px; /* Also specified in  .stripViewer .panelContainer .panel  below */
 	clear: both;
-	background: #f8f8f8;
+	background: #fff;
 }
 
 .stripViewer .panelContainer { /* This is the big long container used to house your end-to-end divs. Width is calculated and specified by the JS  */
@@ -129,35 +129,35 @@ p.intro { border-bottom: 1px solid #ccc; margin-bottom: 20px; padding: 20px 0 30
 }
 
 .stripNav li a {
-	font-size: 24px;
+  font-size: 24px;
 }
 
 .stripNav li a:hover {
-	color: #333;
+  color: #333;
 }
 
 .stripNav li a.current {
-	color: #000;
+  color: #000;
 }
 
 .stripNavL, .stripNavR { /* The left and right arrows */
-	position: absolute;
-	top: 230px;
-	text-indent: -9000em;
+  position: absolute;
+  top: 230px;
+  text-indent: -9000em;
 }
 
 .stripNavL a, .stripNavR a {
-	display: block;
-	height: 40px;
-	width: 40px;
+  display: block;
+  height: 40px;
+  width: 40px;
 }
 
 .stripNavL {
-	left: 0;
+  left: 0;
 }
 
 .stripNavR {
-	right: 0;
+  right: 0;
 }
 
 .stripNavL {
