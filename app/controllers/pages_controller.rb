@@ -19,5 +19,8 @@ class PagesController < ApplicationController
   
   def download
   end
+  
+  def sandbox
+  end
 
 end

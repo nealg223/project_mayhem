@@ -14,15 +14,19 @@ ProjectMayhem::Application.routes.draw do
 
   get "pages/apply"
   
+  get "pages/sandbox"
+  
   get "users/download"
   
-  match '/home', :to => 'pages#home'
+  match '/home',      :to => 'pages#home'
   match '/program',   :to => 'pages#program'
-  match '/staff',    :to => 'pages#staff'
-  match '/community',  :to => 'pages#community'
-  match '/videos', :to => 'pages#videos'
-  match '/apply', :to => 'pages#apply'
-  match '/download', :to => 'users#download'
+  match '/staff',     :to => 'pages#staff'
+  match '/community', :to => 'pages#community'
+  match '/videos',    :to => 'pages#videos'
+  match '/apply',     :to => 'pages#apply'
+  match '/sandbox',   :to => 'pages#sandbox'
+  
+  match '/download',  :to => 'users#download'
 
   root :to => "pages#home"
   
