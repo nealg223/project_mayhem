@@ -4,6 +4,7 @@
   	// jQuery("div#slider2").codaSlider()
   	// etc, etc. Beware of cross-linking difficulties if using multiple sliders on one page.
   });
+<<<<<<< HEAD
 #mast-wrapper
   #mast-body
     = image_tag '../images/mast_temp.jpg'
@@ -90,3 +91,82 @@
     %a.cross-link{:href => "#5"} Space
     
     
+=======
+%noscript
+  %p Unfortunately your browser does not hava JavaScript capabilities which are required to exploit full functionality of our site. This could be the result of two possible scenarios:
+  %ol
+    %li
+      You are using an old web browser, in which case you should upgrade it to a newer version. We recommend the latest version of
+      = succeed "." do
+        %a{:href => "http://www.getfirefox.com"} Firefox
+    %li
+      You have disabled JavaScript in you browser, in which case you will have to enable it to properly use our site.
+      = succeed "." do
+        %a{:href => "http://www.google.com/support/bin/answer.py?answer=23852"} Information on enabling JavaScript
+.slider-wrap
+  #slider1.csw
+    .panelContainer
+      .panel{:title => "Home"}
+        .wrapper
+          #value-1
+            %img{:alt => "Welcome to Code Academy", :src => "../images/ca_logo_copy_03.png"}/
+            %h1.Fr
+              We teach passionate people how to build web applications.
+            .cl-15
+            %h3 Beginner-focused. 12 weeks. Downtown Chicago.
+            %br
+            %h3 Code Academy is a game changer for your career.
+        %p#cross-links
+          %a.cross-link{:href => "#5", :title => "Go to Space"} « Space
+          |
+          %a.cross-link{:href => "#2", :title => "Go to Program"} Program »
+      .panel{:title => "Program"}
+        .wrapper
+          #value-2
+            %h1
+              Nick's Program Infographic Goes here
+        %p#cross-links      
+          %a.cross-link{:href => "#1", :title => "Go to Home"} « Home
+          |
+          %a.cross-link{:href => "#3", :title => "Go to Schedule"} Schedule »
+      .panel{:title => "Schedule"}
+        .wrapper
+          #value-3
+            %h1
+              Nick's schedule infographic goes here
+        %p#cross-links
+          %a.cross-link{:href => "#2", :title => "Go to Program"} « Program
+          |
+          %a.cross-link{:href => "#4", :title => "Go to Students"} Students »
+      .panel{:title => "Students"}
+        .wrapper
+          #value-4  
+            %h1
+              Nick's Student Infographic Goes Here
+        %p#cross-links
+          %a.cross-link{:href => "#3", :title => "Go to Schedule"} « Schedule
+          |
+          %a.cross-link{:href => "#5", :title => "Go to Space"} Space »
+      .panel{:title => "Space"}
+        .wrapper
+          #value-5
+            %h1
+              Nick's Space Infographic goes here
+        %p#cross-links
+          %a.cross-link{:href => "#4", :title => "Go to Schedule"} « Schedule
+          |
+          %a.cross-link{:href => "#1", :title => "Go to Home"} Home »
+    / .panelContainer
+  / #slider1
+/ .slider-wrap
+%p#cross-links
+  %a.cross-link{:href => "#1"} Home
+  |
+  %a.cross-link{:href => "#2"} Program
+  |
+  %a.cross-link{:href => "#3"} Schedule
+  |
+  %a.cross-link{:href => "#4"} Students
+  |
+  %a.cross-link{:href => "#5"} Space
+>>>>>>> 9a16ad352dfe551e523af80a5422986eed78ae31

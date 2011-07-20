@@ -62,6 +62,7 @@ body {
 .Fr {
 	float: right;
 	display: block;
+	width: 500px;
 }
 
 h1 {
@@ -136,7 +137,7 @@ ul {
 	z-index: 40000;
 	height: 60px;
 	border-bottom: 3px solid rgba(0, 0, 0, 0.2);
-	text-align:left;
+	text-align:right;
 	
 }
 
@@ -181,8 +182,6 @@ nav {
 	width: 100%;
 	padding: 0;
 	margin: 0;
-	
-	
 }
 
 #logo {padding:15px 0 0 0;position:absolute;left:70px;height:50px;}
@@ -190,7 +189,6 @@ nav {
 .wrapper {
 	margin: 0 auto;
 	width: 960px;
-
 }
 
 	.wrapper h2 {
@@ -199,7 +197,43 @@ nav {
 
 
 
+	nav li {
+	   	float:left;
+		font-size:18px;
+		height:35px;
+		line-height:35px;
+		list-style-type:none;
+		margin-right:25px;
+		margin-top:-7px;
+		padding-bottom:20px;
+		position:relative;
+		top:20px;
+	}
+	
+	nav ul li a {
+		display: block;
+		color: white;
+		text-decoration: none;
+	}
+	
+		nav li.last a {
+			color: red;
+		}
+		
+/* ============= Home Page CSS - Part 1 ============= */
 
+
+#value-1, #value-2, #value-3, #value-4, #value-5 {
+	margin-top: 50px;
+}
+
+	#value-1 h1 {
+		font-size: 40px;
+	}
+	
+	#value-1 h2 {
+		text-align: center;
+	}
 #splash-bg {
 	width: 100%;
 	background: #0a74ba;
@@ -248,7 +282,7 @@ nav {
 		text-decoration: none;
 		top: 80px;
 	}
-	#program-header-1, #program-header-2, #program-header-3, #program-header-4 {
+	#program-header-1, #program-header-2, #program-header-3, #program-header-4, #program-header-5 {
 		display: inline;
 		cursor: pointer;
 		height: 195px;
@@ -265,7 +299,7 @@ nav {
 	top: 50px;
 }
 
-	#part-1, #part-2, #part-3, #part-4 {
+	#part-1, #part-2, #part-3, #part-4, #part-5 {
 		margin-top: 50px;
 		text-align: center;
 	}
@@ -443,6 +477,25 @@ nav {
 #advisers {
 	clear: both;
 }
+
+	#advisers li.bio {
+		width: 125px;
+	}
+	
+	#advisers li.bio .fn {
+		color: #C32127;
+		position: relative;
+		top: 3px;
+	}
+	
+	#advisers li.bio .role {
+		position: relative;
+		top: 5px;
+	}
+	
+	#advisers ul {
+		line-height: 1;
+	}
 
 /* ====== Video Page CSS ====== */
 
