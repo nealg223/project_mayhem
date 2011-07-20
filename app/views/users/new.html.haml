@@ -7,15 +7,16 @@
       %ul
         - @user.errors.full_messages.each do |msg|
           %li= msg
-  %p Sign up for our mailing list to receive the code academy brochure in your inbox!
-  .field
-    = f.label :name
-    %br/
-    = f.text_field :name
-  .field
-    = f.label :email
-    %br/
-    = f.text_field :email
+  .wrapper
+    %p Sign up for our mailing list and receive the code academy brochure in your inbox!
     .field
-  .actions
-    = f.submit(value="Send email")
+      = f.label :name
+      %br/
+      = f.text_field :name
+    .field
+      = f.label :email
+      %br/
+      = f.text_field :email
+      .field
+    .actions
+      = f.submit(value="Sign Up")
