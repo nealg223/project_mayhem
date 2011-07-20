@@ -21,6 +21,7 @@ body {
 	font-family: 'NewsCycleRegular', Gill Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
 	text-align: left;
 	background: url(../images/8bit_bg_03.png) repeat;
+	padding-bottom: 50px;
 }
 
 .Fr {
@@ -107,12 +108,17 @@ ul {
 
 #main-footer {
 	background: url("../images/head-bg.jpg") repeat;
-	padding-bottom: 22px;
-	position: relative;
 	z-index: 40000;
-	height: 110px;
+	height: 75px;
 	border-top: 3px solid rgba(0, 0, 0, 0.2);
+	padding-bottom: 22px;
 	text-align:left;
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	
 	
 }
 
