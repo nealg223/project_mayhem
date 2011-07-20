@@ -412,6 +412,7 @@ nav {
 	}
 	
 	#advisers li.bio .fn {
+		color: #C32127;
 		position: relative;
 		top: 3px;
 	}
