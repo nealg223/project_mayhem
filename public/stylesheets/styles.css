@@ -110,7 +110,7 @@ ul {
 	padding-bottom: 22px;
 	position: relative;
 	z-index: 40000;
-	height: 90px;
+	height: 110px;
 	border-top: 3px solid rgba(0, 0, 0, 0.2);
 	text-align:left;
 	
@@ -433,6 +433,9 @@ footer {
 	text-align: left;
 }
 
+.footer_links {
+	display: inline;
+}
 
 
 
