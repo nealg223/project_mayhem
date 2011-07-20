@@ -70,6 +70,18 @@ body {
 		width: 550px;
 	}
 	
+	#buttons {
+		bottom: 182px;
+		left: 150px;
+		margin-right: 10px;
+		position: relative;
+	}
+	
+		img#submit {
+			margin-top: 2px;
+			margin-left: 10px;
+		}
+	
 #testimonial {
   margin:6px 0 0 0;
   background: url(../images/8bit_bg_03.png) repeat;
