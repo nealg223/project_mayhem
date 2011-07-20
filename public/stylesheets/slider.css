@@ -142,4 +142,4 @@ p.intro { border-bottom: 1px solid #ccc; margin-bottom: 20px; padding: 20px 0 30
 
 p#cross-links { text-align: center }
 
-p#cross-links { border-bottom: 1px solid #ccc; margin-bottom: 30px; padding-bottom: 30px }
+p#cross-links { /*border-bottom: 1px solid #ccc;*/ margin-bottom: 30px; padding-bottom: 30px }

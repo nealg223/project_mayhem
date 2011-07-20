@@ -27,6 +27,7 @@ body {
 .Fr {
 	float: right;
 	display: block;
+	width: 500px;
 }
 
 h1 {
@@ -162,7 +163,21 @@ nav {
 		nav li.last a {
 			color: red;
 		}
+		
+/* ============= Home Page CSS - Part 1 ============= */
 
+
+#value-1, #value-2, #value-3, #value-4, #value-5 {
+	margin-top: 50px;
+}
+
+	#value-1 h1 {
+		font-size: 40px;
+	}
+	
+	#value-1 h2 {
+		text-align: center;
+	}
 #splash-bg {
 	width: 100%;
 	background: #0a74ba;
