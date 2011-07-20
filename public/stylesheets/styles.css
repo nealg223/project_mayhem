@@ -100,7 +100,7 @@ ul {
 	z-index: 40000;
 	height: 70px;
 	border-bottom: 3px solid rgba(0, 0, 0, 0.2);
-	text-align:left;
+	text-align:right;
 	
 }
 
@@ -112,7 +112,7 @@ ul {
 	z-index: 40000;
 	height: 110px;
 	border-top: 3px solid rgba(0, 0, 0, 0.2);
-	text-align:left;
+	text-align:center;
 	
 }
 
@@ -121,7 +121,6 @@ ul {
 .wrapper {
 	margin: 0 auto;
 	width: 960px;
-
 }
 
 	.wrapper h2 {
@@ -204,7 +203,7 @@ nav {
 		text-decoration: none;
 		top: 80px;
 	}
-	#program-header-1, #program-header-2, #program-header-3, #program-header-4 {
+	#program-header-1, #program-header-2, #program-header-3, #program-header-4 #program-header-5 {
 		display: inline;
 		cursor: pointer;
 		height: 195px;
@@ -221,7 +220,7 @@ nav {
 	top: 50px;
 }
 
-	#part-1, #part-2, #part-3, #part-4 {
+	#part-1, #part-2, #part-3, #part-4 #part-5 {
 		margin-top: 50px;
 		text-align: center;
 	}

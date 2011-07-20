@@ -21,49 +21,52 @@
       .panel{:title => "Home"}
         .wrapper
           #part-1
-            %h1.Fr
+            %h1
               The Code Academy Home Landing Page Goes Here
-            %a.cross-link{:href => "#5", :title => "Go to Space"} « Previous
-            |
-            %a.cross-link{:href => "#2", :title => "Go to Program"} Next »
+        %p#cross-links
+          %a.cross-link{:href => "#5", :title => "Go to Space"} « Space
+          |
+          %a.cross-link{:href => "#2", :title => "Go to Program"} Program »
       .panel{:title => "Program"}
         .wrapper
           #part-2
-            %h1.Fr
+            %h1
               Nick's Program Infographic Goes here
-            %a.cross-link{:href => "#1", :title => "Go to Home"} « Previous
-            |
-            %a.cross-link{:href => "#3", :title => "Go to Schedule"} Next »
+        %p#cross-links      
+          %a.cross-link{:href => "#1", :title => "Go to Home"} « Home
+          |
+          %a.cross-link{:href => "#3", :title => "Go to Schedule"} Schedule »
       .panel{:title => "Schedule"}
         .wrapper
           #part-3
-            %h1.Fr
+            %h1
               Nick's schedule infographic goes here
-            %a.cross-link{:href => "#2", :title => "Go to Program"} « Previous
-            |
-            %a.cross-link{:href => "#4", :title => "Go to Students"} Next »
+        %p#cross-links
+          %a.cross-link{:href => "#2", :title => "Go to Program"} « Program
+          |
+          %a.cross-link{:href => "#4", :title => "Go to Students"} Students »
       .panel{:title => "Students"}
         .wrapper
           #part-4  
-            %h1.Fr
+            %h1
               Nick's Student Infographic Goes Here
-            %a.cross-link{:href => "#3", :title => "Go to Schedule"} « Previous
-            |
-            %a.cross-link{:href => "#5", :title => "Go to Space"} Next »
+        %p#cross-links
+          %a.cross-link{:href => "#3", :title => "Go to Schedule"} « Schedule
+          |
+          %a.cross-link{:href => "#5", :title => "Go to Space"} Space »
       .panel{:title => "Space"}
         .wrapper
-          #part-5  
-            %h1.Fr
+          #part-5
+            %h1
               Nick's Space Infographic goes here
-            %a.cross-link{:href => "#4", :title => "Go to Schedule"} « Previous
-            |
-            %a.cross-link{:href => "#1", :title => "Go to Home"} Next »
+        %p#cross-links
+          %a.cross-link{:href => "#4", :title => "Go to Schedule"} « Schedule
+          |
+          %a.cross-link{:href => "#1", :title => "Go to Home"} Home »
     / .panelContainer
   / #slider1
 / .slider-wrap
 %p#cross-links
-  Same-page cross-link controls:
-  %br/
   %a.cross-link{:href => "#1"} Home
   |
   %a.cross-link{:href => "#2"} Program
