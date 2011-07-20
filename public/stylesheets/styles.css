@@ -376,16 +376,29 @@ nav {
 
 /*====== Community Page CSS ======== */
 
-.row-1 {
-	margin: auto 30px;
+
+
+
+#row-1 {
+	margin: auto 67px;
 	width: 900px;
 }
 
-	.row-1 img {
-		display: inline;
-		width: 128px;
-		margin-right: 10px;
+	#row-1 ul {
+		margin-left: 0;
 	}
+	
+	#row-1 li {
+		float: left;
+		list-style: none outside none;
+		margin-bottom: 10px;
+		margin-right: 12px;
+		padding-left: 0;
+	}
+	
+#advisers {
+	clear: both;
+}
 
 /* ====== Video Page CSS ====== */
 

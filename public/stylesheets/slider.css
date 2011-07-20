@@ -48,7 +48,7 @@ p.intro { border-bottom: 1px solid #ccc; margin-bottom: 20px; padding: 20px 0 30
 	overflow: hidden; 
 	/*border: 5px solid #000; /* this is the border. should have the same value for the links */
 	margin: auto;
-	width: 700px; /* Also specified in  .stripViewer .panelContainer .panel  below */
+	width: 960px; /* Also specified in  .stripViewer .panelContainer .panel  below */
 	clear: both;
 }
 
@@ -64,7 +64,7 @@ p.intro { border-bottom: 1px solid #ccc; margin-bottom: 20px; padding: 20px 0 30
 	float:left;
 	height: 100%;
 	position: relative;
-	width: 700px; /* Also specified in  .stripViewer  above */
+	width: 960px; /* Also specified in  .stripViewer  above */
 }
 
 .stripViewer .panelContainer .panel .wrapper { /* Wrapper to give some padding in the panels, without messing with existing panel width */
