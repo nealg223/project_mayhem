@@ -4,72 +4,89 @@
   	// jQuery("div#slider2").codaSlider()
   	// etc, etc. Beware of cross-linking difficulties if using multiple sliders on one page.
   });
-%noscript
-  %p Unfortunately your browser does not hava JavaScript capabilities which are required to exploit full functionality of our site. This could be the result of two possible scenarios:
-  %ol
-    %li
-      You are using an old web browser, in which case you should upgrade it to a newer version. We recommend the latest version of
-      = succeed "." do
-        %a{:href => "http://www.getfirefox.com"} Firefox
-    %li
-      You have disabled JavaScript in you browser, in which case you will have to enable it to properly use our site.
-      = succeed "." do
-        %a{:href => "http://www.google.com/support/bin/answer.py?answer=23852"} Information on enabling JavaScript
-.slider-wrap
-  #slider1.csw
-    .panelContainer
-      .panel{:title => "Home"}
-        .wrapper
-          #part-1
-            %h1.Fr
-              The Code Academy Home Landing Page Goes Here
-            %a.cross-link{:href => "#5", :title => "Go to Space"} « Previous
-            |
-            %a.cross-link{:href => "#2", :title => "Go to Program"} Next »
-      .panel{:title => "Program"}
-        .wrapper
-          #part-2
-            %h1.Fr
-              Nick's Program Infographic Goes here
-            %a.cross-link{:href => "#1", :title => "Go to Home"} « Previous
-            |
-            %a.cross-link{:href => "#3", :title => "Go to Schedule"} Next »
-      .panel{:title => "Schedule"}
-        .wrapper
-          #part-3
-            %h1.Fr
-              Nick's schedule infographic goes here
-            %a.cross-link{:href => "#2", :title => "Go to Program"} « Previous
-            |
-            %a.cross-link{:href => "#4", :title => "Go to Students"} Next »
-      .panel{:title => "Students"}
-        .wrapper
-          #part-4  
-            %h1.Fr
-              Nick's Student Infographic Goes Here
-            %a.cross-link{:href => "#3", :title => "Go to Schedule"} « Previous
-            |
-            %a.cross-link{:href => "#5", :title => "Go to Space"} Next »
-      .panel{:title => "Space"}
-        .wrapper
-          #part-5  
-            %h1.Fr
-              Nick's Space Infographic goes here
-            %a.cross-link{:href => "#4", :title => "Go to Schedule"} « Previous
-            |
-            %a.cross-link{:href => "#1", :title => "Go to Home"} Next »
-    / .panelContainer
-  / #slider1
-/ .slider-wrap
-%p#cross-links
-  Same-page cross-link controls:
-  %br/
-  %a.cross-link{:href => "#1"} Home
-  |
-  %a.cross-link{:href => "#2"} Program
-  |
-  %a.cross-link{:href => "#3"} Schedule
-  |
-  %a.cross-link{:href => "#4"} Students
-  |
-  %a.cross-link{:href => "#5"} Space
+#mast-wrapper
+  #mast-body
+    = image_tag '../images/mast_temp.jpg'
+#testimonial
+  .testimonial.inner
+    = image_tag '../images/testimonial_temp.png'
+#solve
+  .solve.inner
+    = image_tag '../images/solve_temp.png'
+#learn_best
+  .learn_best.inner
+    = image_tag '../images/learnbest_temp.png'
+    
+    
+#home-rotator
+  %noscript
+    %p Unfortunately your browser does not hava JavaScript capabilities which are required to exploit full functionality of our site. This could be the result of two possible scenarios:
+    %ol
+      %li
+        You are using an old web browser, in which case you should upgrade it to a newer version. We recommend the latest version of
+        = succeed "." do
+          %a{:href => "http://www.getfirefox.com"} Firefox
+      %li
+        You have disabled JavaScript in you browser, in which case you will have to enable it to properly use our site.
+        = succeed "." do
+          %a{:href => "http://www.google.com/support/bin/answer.py?answer=23852"} Information on enabling JavaScript
+  .slider-wrap
+    #slider1.csw
+      .panelContainer
+        .panel{:title => "Home"}
+          .wrapper
+            #part-1
+              %h1.Fr
+                The Code Academy Home Landing Page Goes Here
+              %a.cross-link{:href => "#5", :title => "Go to Space"} « Previous
+              |
+              %a.cross-link{:href => "#2", :title => "Go to Program"} Next »
+        .panel{:title => "Program"}
+          .wrapper
+            #part-2
+              %h1.Fr
+                Nick's Program Infographic Goes here
+              %a.cross-link{:href => "#1", :title => "Go to Home"} « Previous
+              |
+              %a.cross-link{:href => "#3", :title => "Go to Schedule"} Next »
+        .panel{:title => "Schedule"}
+          .wrapper
+            #part-3
+              %h1.Fr
+                Nick's schedule infographic goes here
+              %a.cross-link{:href => "#2", :title => "Go to Program"} « Previous
+              |
+              %a.cross-link{:href => "#4", :title => "Go to Students"} Next »
+        .panel{:title => "Students"}
+          .wrapper
+            #part-4  
+              %h1.Fr
+                Nick's Student Infographic Goes Here
+              %a.cross-link{:href => "#3", :title => "Go to Schedule"} « Previous
+              |
+              %a.cross-link{:href => "#5", :title => "Go to Space"} Next »
+        .panel{:title => "Space"}
+          .wrapper
+            #part-5  
+              %h1.Fr
+                Nick's Space Infographic goes here
+              %a.cross-link{:href => "#4", :title => "Go to Schedule"} « Previous
+              |
+              %a.cross-link{:href => "#1", :title => "Go to Home"} Next »
+      / .panelContainer
+    / #slider1
+  / .slider-wrap
+  %p#cross-links
+    Same-page cross-link controls:
+    %br/
+    %a.cross-link{:href => "#1"} Home
+    |
+    %a.cross-link{:href => "#2"} Program
+    |
+    %a.cross-link{:href => "#3"} Schedule
+    |
+    %a.cross-link{:href => "#4"} Students
+    |
+    %a.cross-link{:href => "#5"} Space
+    
+    
