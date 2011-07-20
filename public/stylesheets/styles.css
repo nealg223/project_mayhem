@@ -57,6 +57,10 @@ body {
 #mast-body {
   text-align:center;
 }
+	#mast-body img {
+		position: relative;
+		left: -100px;
+	}
 #testimonial {
   margin:6px 0 0 0;
   background: url(../images/8bit_bg_03.png) repeat;
