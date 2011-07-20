@@ -254,15 +254,29 @@ nav {
 #solve.inner {
 }
 
-	.solve.inner h1 {
+	#splash-1 {
+		position: relative;
+		top: 200px;
+	}
+
+	#splash-1 h1 {
 		color: #000000;
 		font-family: 'HelveticaLTStdBoldCondensed';
 		font-size: 83px;
 		font-weight: 700;
-		position: relative;
 		text-transform: uppercase;
-		top: 200px;
 	}
+	
+	#splash-1 h3 {
+		font-family: 'Serif12BetaRegular',Helvetica;
+		font-size: 30px;
+		left: 300px;
+		line-height: 1.3;
+		position: relative;
+		text-align: center;
+		width: 800px;
+	}
+	
 
 
 #learn_best {
