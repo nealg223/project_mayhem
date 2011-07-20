@@ -21,6 +21,7 @@ body {
 	font-family: 'NewsCycleRegular', Gill Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
 	text-align: left;
 	background: url(../images/8bit_bg_03.png) repeat;
+	padding-bottom: 50px;
 }
 
 .Fr {
@@ -31,7 +32,7 @@ body {
 h1 {
 	font-family: 'NewsCycleRegular' Helvetica Neue, Helvetica, Gill Sans;
 	letter-spacing: 2px;
-	font-size: 60px;
+	font-size: 50px;
 	text-align: center;
 	font-weight: 100;
 	color: #0973ba;
@@ -107,12 +108,18 @@ ul {
 
 #main-footer {
 	background: url("../images/head-bg.jpg") repeat;
-	padding-bottom: 22px;
-	position: relative;
 	z-index: 40000;
-	height: 110px;
+	height: 75px;
 	border-top: 3px solid rgba(0, 0, 0, 0.2);
-	text-align:center;
+	padding-bottom: 22px;
+	text-align:left;
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	
+>>>>>>> 564e2bb99bb2ead0d3218e5884e1a157568809c8
 	
 }
 
@@ -131,6 +138,10 @@ ul {
 nav {
 	float: right;
 }
+
+	ul.header_links {
+		float: left;
+	}
 
 	nav li {
 	   	float:left;
@@ -287,7 +298,7 @@ nav {
 		}
 		
 			li.bio a .fn {
-				font-size: 18px;
+				font-size: 19px;
 			}
 			
 			li.bio a .role {
@@ -426,6 +437,41 @@ nav {
 		color: white;
 		cursor: pointer;
 	}
+	
+/* ============= Apply Page =========== */
+
+#apply {
+	height: 800px;
+}
+
+#apply-header h1 {
+	font-size: 40px;
+	text-align: center;
+	padding: 20px;
+}
+
+#app-deadline {
+	font-size: 24px;
+	text-align: center;
+}
+
+#course-info h3 {
+	font-size: 36px;
+	text-align: center;
+}
+
+#apply-button a {
+	color: #C32127;
+	font-size: 50px;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px;
+	
+}
+
+#apply-button h3 {
+	text-align: center;
+}
 
 footer {
 	clear: both;
