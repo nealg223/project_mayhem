@@ -3,21 +3,13 @@
     #logo
       = link_to image_tag( '/images/text-logo.png'), root_path
           
-    %nav
-      %ul
-        %li
-          %a#home-selector{:href => "#", :title => "$(...).scrollTo( 'li:eq(0)', 800 );"} Home
-        %li
-          %a#program-selector{:href => "#", :title => "$(...).scrollTo( 'li:eq(1)', 800 );"} Program
-        %li
-          %a#staff-selector{:href => "#", :title => "$(...).scrollTo( 'li:eq(2)', 800 );"} Staff
-        %li
-          %a#community-selector{:href => "#", :title => "$(...).scrollTo( 'li:eq(3)', 800 );"} Community
-        %li
-          %a#videos-selector{:href => "#", :title => "$(...).scrollTo( 'li:eq(4)', 800 );"} Videos
-        %li
-          %a#apply-selector{:href => "#", :title => "$(...).scrollTo( 'li:eq(5)', 800 );"} Apply
-
-      %div{:style => "clear:both;"}
-
+      %nav
+        %ul.header_links
+          %li= link_to "Home", root_path
+          %li= link_to "Program", program_path
+          %li= link_to "Staff", staff_path
+          %li= link_to "Community", community_path
+          %li= link_to "Videos", videos_path
+          %li.last= link_to "Apply", apply_path
+        %div{:style => "clear:both;"}
    
