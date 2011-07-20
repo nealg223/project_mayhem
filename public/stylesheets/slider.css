@@ -85,12 +85,11 @@ p.intro { border-bottom: 1px solid #ccc; margin-bottom: 20px; padding: 20px 0 30
 
 .stripNav a { /* The nav links */
 	font-size: 10px;
-	font-weight: bold;
 	text-align: center;
 	line-height: 32px;
 	text-decoration: none;
 	display: block;
-	padding: 0 15px;
+	padding: 10px 20px 10px 20px;
 }
 
 /* ====== Tabs Styles At The Top ====== */
@@ -142,4 +141,4 @@ p.intro { border-bottom: 1px solid #ccc; margin-bottom: 20px; padding: 20px 0 30
 
 p#cross-links { text-align: center }
 
-p#cross-links { /*border-bottom: 1px solid #ccc;*/ margin-bottom: 30px; padding-bottom: 30px }
+p#cross-links { /*border-bottom: 1px solid #ccc;*/ margin-bottom: 30px; font-size:16px;padding:10px 10px; }

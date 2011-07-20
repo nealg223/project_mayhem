@@ -43,7 +43,7 @@
 
 
 body {
-	font-family: 'Serif12BetaRegular', Helvetica, sans-serif;
+	font-family: Helvetica, sans-serif;
 	text-align: left;
 	background: url(../images/8bit_bg_03.png) repeat;
 	padding-bottom: 50px;
@@ -92,7 +92,7 @@ body {
 
 h1 {
 	font-family:  'HelveticaLTStdBoldCondensed', 'Serif12BetaRegular';
-	letter-spacing: 2px;
+	letter-spacing: 0px;
 	font-size: 50px;
 	text-align: center;
 	font-weight: 100;
@@ -355,6 +355,22 @@ nav {
 }
 
 
+.rounded-box {
+  background: #fff;
+	clear: both;
+	margin: auto 58px;
+	padding:20px;
+	overflow:auto;
+	-moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  -moz-box-shadow: 0px 3px 3px #b7b2a9;
+  -webkit-box-shadow: 0px 3px 3px #b7b2a9;
+  box-shadow: 0px 3px 3px #b7b2a9;
+}
+
 /*======== Staff Section ======== */
 
 #staff {
@@ -402,10 +418,6 @@ nav {
 
 
 #instructor {
-	background: #fff;
-	clear: both;
-	margin: auto 58px;
-	height: 250px;
 }
 
 	#instructor img {
@@ -429,11 +441,9 @@ nav {
 	}
 	
 
+
 #mentor-list {
-	background: #fff;
-	clear: both;
-	margin: auto 58px;
-	height: 300px;
+
 }
 
 	#mentor-list ul {
@@ -448,13 +458,9 @@ nav {
 		margin-right: 0px!important;
 	}
 
+
+/* Mike, these classes should all be inheriting their structure and style from a base class so that we don't repeat ourselves */
 #leadership {
-	background: #fff;
-	clear: both;
-	margin: auto 58px;
-	height: 300px;
-	position: relative;
-	bottom: 21px;
 }
 
 	#leadership ul {
