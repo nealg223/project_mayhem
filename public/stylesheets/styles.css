@@ -121,7 +121,7 @@ ul {
 
 .wrapper {
 	margin: 0 auto;
-	/*width: 1070px;*/
+	width: 960px;
 
 }
 
@@ -322,8 +322,8 @@ nav {
 
 	li.content {
 		float: left;
-		width: 850px;
-		margin-top: 50px;
+		margin-top: 21px;
+		width: 656px;
 	}
 	
 
@@ -351,10 +351,12 @@ nav {
 	clear: both;
 	margin: auto 58px;
 	height: 300px;
+	position: relative;
+	bottom: 21px;
 }
 
 	#leadership ul {
-		padding-left: 150px;
+		padding-left: 120px;
 	}
 	
 	#leadership li.bio {
