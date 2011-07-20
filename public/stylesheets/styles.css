@@ -407,6 +407,19 @@ nav {
 	clear: both;
 }
 
+	#advisers li.bio {
+		width: 125px;
+	}
+	
+	#advisers li.bio .fn {
+		position: relative;
+		top: 3px;
+	}
+	
+	#advisers ul {
+		line-height: 1;
+	}
+
 /* ====== Video Page CSS ====== */
 
 
