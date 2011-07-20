@@ -32,7 +32,7 @@ body {
 h1 {
 	font-family: 'NewsCycleRegular' Helvetica Neue, Helvetica, Gill Sans;
 	letter-spacing: 2px;
-	font-size: 60px;
+	font-size: 50px;
 	text-align: center;
 	font-weight: 100;
 	color: #0973ba;
@@ -138,6 +138,10 @@ ul {
 nav {
 	float: right;
 }
+
+	ul.header_links {
+		float: left;
+	}
 
 	nav li {
 	   	float:left;
@@ -433,6 +437,41 @@ nav {
 		color: white;
 		cursor: pointer;
 	}
+	
+/* ============= Apply Page =========== */
+
+#apply {
+	height: 800px;
+}
+
+#apply-header h1 {
+	font-size: 40px;
+	text-align: center;
+	padding: 20px;
+}
+
+#app-deadline {
+	font-size: 24px;
+	text-align: center;
+}
+
+#course-info h3 {
+	font-size: 36px;
+	text-align: center;
+}
+
+#apply-button a {
+	color: #C32127;
+	font-size: 50px;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px;
+	
+}
+
+#apply-button h3 {
+	text-align: center;
+}
 
 footer {
 	clear: both;
