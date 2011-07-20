@@ -48,72 +48,6 @@ body {
 	background: url(../images/8bit_bg_03.png) repeat;
 	padding-bottom: 50px;
 }
-#mast-wrapper {
-  width:100%;
-  height:397px;
-  background: url(../images/mast_bg.gif) repeat-x;
-  
-}
-#mast-body {
-  text-align:center;
-}
-	#mast-body img {
-		position: relative;
-		top: 15px;
-	}
-	
-	p#sell {
-		bottom: 174px;
-		color: white;
-		left: 632px;
-		position: relative;
-		width: 550px;
-	}
-	
-	#buttons {
-		bottom: 182px;
-		left: 150px;
-		margin-right: 10px;
-		position: relative;
-	}
-	
-		img#submit {
-			margin-top: 2px;
-			margin-left: 10px;
-		}
-	
-#testimonial {
-  margin:6px 0 0 0;
-  background: url(../images/8bit_bg_03.png) repeat;
-  text-align:center;
-}
-#testimonial.inner {
-  
-}
-#solve {
-  margin:6px 0 0 0;
-  text-align:center;
-  height:710px;
-  background-color:#fff;
-}
-#solve.inner {
-  
-}
-
-
-#learn_best {
-  margin:6px 0 0 0;
-  text-align:center;
-  height:400px;
-  padding:20px 0 0 0;
-}
-  .learn_best.inner {}
-
-.Fr {
-	float: right;
-	display: block;
-	width: 500px;
-}
 
 h1 {
 	font-family:  'HelveticaLTStdBoldCondensed', 'Serif12BetaRegular';
@@ -269,6 +203,78 @@ nav {
 		nav li.last a {
 			color: red;
 		}
+#mast-wrapper {
+  width:100%;
+  height:397px;
+  background: url(../images/mast_bg.gif) repeat-x;
+  
+}
+#mast-body {
+  text-align:center;
+}
+	#mast-body img {
+		position: relative;
+		top: 15px;
+	}
+	
+	p#sell {
+		bottom: 174px;
+		color: white;
+		left: 632px;
+		position: relative;
+		width: 550px;
+	}
+	
+	#buttons {
+		bottom: 182px;
+		left: 150px;
+		margin-right: 10px;
+		position: relative;
+	}
+	
+		img#submit {
+			margin-top: 2px;
+			margin-left: 10px;
+		}
+	
+#testimonial {
+  margin:6px 0 0 0;
+  background: url(../images/8bit_bg_03.png) repeat;
+  text-align:center;
+}
+#testimonial.inner {
+  
+}
+#solve {
+  margin:6px 0 0 0;
+  text-align:center;
+  height:710px;
+  background-color:#fff;
+}
+#solve.inner {
+   color: #000;
+}
+
+	#solve.inner h1 {
+		
+	}
+
+
+#learn_best {
+  margin:6px 0 0 0;
+  text-align:center;
+  height:400px;
+  padding:20px 0 0 0;
+}
+  .learn_best.inner {}
+
+.Fr {
+	float: right;
+	display: block;
+	width: 500px;
+}
+
+
 		
 /* ============= Home Page CSS - Part 1 ============= */
 
