@@ -16,9 +16,34 @@
 
 }
 
+@font-face {
+    font-family: 'HelveticaLTStdBoldCondensed';
+    src: url('../fonts/helveticaltstd-boldcond-webfont.eot');
+    src: url('../fonts/helveticaltstd-boldcond-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaltstd-boldcond-webfont.woff') format('woff'),
+         url('../fonts/helveticaltstd-boldcond-webfont.ttf') format('truetype'),
+         url('../fonts/helveticaltstd-boldcond-webfont.svg#HelveticaLTStdBoldCondensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Serif12BetaRegular';
+    src: url('../fonts/serif12beta-regular-webfont.eot');
+    src: url('../fonts/serif12beta-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/serif12beta-regular-webfont.woff') format('woff'),
+         url('../fonts/serif12beta-regular-webfont.ttf') format('truetype'),
+         url('../fonts/serif12beta-regular-webfont.svg#Serif12BetaRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 
 body {
-	font-family: 'NewsCycleRegular', Gill Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-family: 'Serif12BetaRegular', Helvetica, sans-serif;
 	text-align: left;
 	background: url(../images/8bit_bg_03.png) repeat;
 	padding-bottom: 50px;
@@ -66,7 +91,7 @@ body {
 }
 
 h1 {
-	font-family: 'NewsCycleRegular' Helvetica Neue, Helvetica, Gill Sans;
+	font-family:  'HelveticaLTStdBoldCondensed', 'Serif12BetaRegular';
 	letter-spacing: 2px;
 	font-size: 50px;
 	text-align: center;
@@ -76,7 +101,7 @@ h1 {
 
 h2 {
 	color: #0973BA;
-	font-family: Gill Sans;
+	font-family: 'Serif12BetaRegular';
  	font-size: 24px;
 	font-weight: 100;
 	margin-bottom: 10px;
@@ -104,7 +129,7 @@ h3 {
 }
 
 p {
-	font-family: Gill Sans, Helvetica;
+	font-family: 'Serif12BetaRegular', Helvetica;
 	font-size: 18px;
 	font-weight: lighter;
 	line-height: 24px;
@@ -147,7 +172,7 @@ nav {
 
 	ul.header_links {
 		position:relative;
-		left:310px;
+		left:-130px;
 		top:-10px;
 	}
 

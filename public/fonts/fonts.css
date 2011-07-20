@@ -14,3 +14,27 @@
 
 }
 
+@font-face {
+    font-family: 'HelveticaLTStdBoldCondensed';
+    src: url('helveticaltstd-boldcond-webfont.eot');
+    src: url('helveticaltstd-boldcond-webfont.eot?#iefix') format('embedded-opentype'),
+         url('helveticaltstd-boldcond-webfont.woff') format('woff'),
+         url('helveticaltstd-boldcond-webfont.ttf') format('truetype'),
+         url('helveticaltstd-boldcond-webfont.svg#HelveticaLTStdBoldCondensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Serif12BetaRegular';
+    src: url('serif12beta-regular-webfont.eot');
+    src: url('serif12beta-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('serif12beta-regular-webfont.woff') format('woff'),
+         url('serif12beta-regular-webfont.ttf') format('truetype'),
+         url('serif12beta-regular-webfont.svg#Serif12BetaRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
