@@ -256,7 +256,7 @@ nav {
 
 	#splash-1 {
 		position: relative;
-		top: 200px;
+		top: 100px;
 	}
 
 	#splash-1 h1 {
@@ -275,6 +275,12 @@ nav {
 		position: relative;
 		text-align: center;
 		width: 800px;
+	}
+	
+	#splash-1 img {
+		position: relative;
+		right: 20px;
+		top: -30px;
 	}
 	
 
