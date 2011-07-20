@@ -416,6 +416,11 @@ nav {
 		top: 3px;
 	}
 	
+	#advisers li.bio .role {
+		position: relative;
+		top: 5px;
+	}
+	
 	#advisers ul {
 		line-height: 1;
 	}
