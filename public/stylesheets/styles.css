@@ -252,11 +252,16 @@ nav {
   background-color:#fff;
 }
 #solve.inner {
-   color: #000;
 }
 
-	#solve.inner h1 {
-		
+	.solve.inner h1 {
+		color: #000000;
+		font-family: 'HelveticaLTStdBoldCondensed';
+		font-size: 83px;
+		font-weight: 700;
+		position: relative;
+		text-transform: uppercase;
+		top: 200px;
 	}
 
 
