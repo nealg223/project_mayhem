@@ -127,22 +127,23 @@ ul {
 
 nav {
 	float: right;
+	margin: 0;
 }
 
 	ul.header_links {
-		position:relative;
-		left:-130px;
-		top:-10px;
 	}
 
 	nav li {
 	  float:left;
-		font-size:18px;
-		height:35px;
-		line-height:35px;
-		list-style-type:none;
-		margin-right:25px;
-		position:relative;
+	  font-size: 16px;
+	  font-family: Helvetica Neue, Helvetica;
+	  height:35px;
+	  line-height:35px;
+	  list-style-type:none;
+	  margin-right:25px;
+	  position:relative;
+	  letter-spacing: 0.2px;
+	  text-transform: uppercase;
 	}
 	
 	nav ul li a {
@@ -223,7 +224,7 @@ nav {
 	p#sell {
 		bottom: 174px;
 		color: white;
-		left: 632px;
+		left: 399px;
 		position: relative;
 		width: 550px;
 		
@@ -239,8 +240,8 @@ nav {
 	}
 	
 		img#submit {
-			margin-top: 2px;
-			margin-left: 10px;
+			margin-left: 250px;
+			margin-top: 21px;
 		}
 	
 #testimonial {
