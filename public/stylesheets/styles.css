@@ -283,9 +283,21 @@ nav {
 		top: -30px;
 	}
 	
-		img#program-preview {
-			top: 39px;
-		}
+	img#program-preview {
+		clear: both;
+	    left: -319px;
+	    margin: 0 auto;
+	    position: relative;
+	    top: 135px;
+	}
+	
+	.buttons {
+		display: block;
+		float: left;
+		left: 399px;
+		position: relative;
+		top: 200px;
+	}
 
 
 #learn_best {
