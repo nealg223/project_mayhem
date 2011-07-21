@@ -125,6 +125,11 @@ ul {
 	
 }
 
+#logo {height: 50px;
+    left: 308px;
+    padding: 15px 0 0;
+    position: absolute;}
+
 nav {
 	float: right;
 	margin: 0;
@@ -137,7 +142,7 @@ nav {
 	  float:left;
 	  font-size: 16px;
 	  font-family: Helvetica Neue, Helvetica;
-	  height:35px;
+	  height:50px;
 	  line-height:35px;
 	  list-style-type:none;
 	  margin-right:25px;
@@ -150,7 +155,13 @@ nav {
 		display: block;
 		color: white;
 		text-decoration: none;
+		text-shadow: 0px 2px 2px #000000;
 	}
+	
+		nav li a:hover {
+			color: #7DB1DD;
+			text-shadow: 0 1px 1px #000;
+		}
 	
 		nav li.last a {
 			color: red;
@@ -169,7 +180,7 @@ nav {
 	margin: 0;
 }
 
-#logo {padding:15px 0 0 0;position:absolute;left:70px;height:50px;}
+
 
 .wrapper {
 	margin: 0 auto;
@@ -186,7 +197,7 @@ nav {
 	   	float:left;
 		font-size:18px;
 		height:35px;
-		line-height:35px;
+		line-height:26px;
 		list-style-type:none;
 		margin-right:25px;
 		margin-top:-7px;
