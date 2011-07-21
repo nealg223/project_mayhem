@@ -275,6 +275,7 @@ nav {
 		position: relative;
 		text-align: center;
 		width: 800px;
+		font-weight: lighter;
 	}
 	
 	#splash-1 img {
@@ -294,10 +295,17 @@ nav {
 	.buttons {
 		display: block;
 		float: left;
-		left: 399px;
+		left: 322px;
 		position: relative;
 		top: 200px;
 	}
+	
+		.buttons.last {
+			left: 872px;
+			margin-right: 0 !important;
+			position: relative;
+			top: 53px;
+		}
 
 
 #learn_best {
