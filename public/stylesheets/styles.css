@@ -724,16 +724,28 @@ h3#more-videos {
 }
 
 #apply-button a {
+	bottom: 200px;
 	color: #C32127;
 	font-size: 50px;
+	left: 150px;
+	padding: 10px;
+	position: relative;
 	text-align: center;
 	text-decoration: none;
-	padding: 10px;
 	
 }
 
 #apply-button h3 {
 	text-align: center;
+	clear: both;
+}
+
+#apply-button img {
+	width: 200px;
+	display: block;
+	position: relative;
+	left: 200px;
+	
 }
 
 footer {
