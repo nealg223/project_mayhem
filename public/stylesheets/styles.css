@@ -593,6 +593,7 @@ nav {
 	}
 	
 	#advisers li.bio .fn {
+		font-family: 'NewsCycleRegular';
 		color: #C32127;
 		position: relative;
 		top: 3px;
