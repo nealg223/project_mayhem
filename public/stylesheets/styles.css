@@ -488,6 +488,20 @@ nav {
   box-shadow: 0px 3px 3px #b7b2a9;
 }
 
+
+/* ============== Space Section =============== */
+
+li.equipment img {
+	height: 200px;
+	display: block;
+}
+
+#span.item, #span.description {
+	float: left;
+	clear: both;
+	width: 400px;
+}
+
 /*======== Staff Section ======== */
 
 #staff {
