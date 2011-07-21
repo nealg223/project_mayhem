@@ -170,10 +170,10 @@ nav {
 
 #main-footer {
 	background: url("../images/head-bg.jpg") repeat;
-	height: 75px;
+	height: 90px;
 	border-top: 3px solid rgba(0, 0, 0, 0.2);
 	text-align:left;
-	position: absolute;
+	position: fixed;
 	bottom: 0;
 	width: 100%;
 	padding: 0;
@@ -229,11 +229,11 @@ nav {
 }
 	#mast-body img {
 		position: relative;
-		top: 15px;
+		top: 35px;
 	}
 	
 	p#sell {
-		bottom: 174px;
+		bottom: 159px;
 		color: white;
 		left: 399px;
 		position: relative;
