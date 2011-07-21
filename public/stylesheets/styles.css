@@ -203,6 +203,10 @@ nav {
 		nav li.last a {
 			color: red;
 		}
+		
+.splash {
+	
+}
 #mast-wrapper {
   height:397px;
   background: url(../images/mast_bg.gif) repeat-x;
@@ -224,7 +228,9 @@ nav {
 		width: 550px;
 		
 	}
-	
+.splash {
+	background: #0973BA;
+}
 	#buttons {
 		bottom: 182px;
 		left: 150px;
