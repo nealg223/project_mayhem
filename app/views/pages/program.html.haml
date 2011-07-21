@@ -69,8 +69,8 @@
               |
               %a.cross-link{:href => "#2", :title => "Go to Schedule"} Next »
       .panel{:title => "Schedule"}
-        .wrapper
-          %h1 The most immersive curriculum, ever.
+        .container
+          %h1#tab2 The most immersive curriculum, ever.
           .cl-50
           %h2 Daily Schedule
           %p The Code Academy daily schedule  begins with a stand-up meeting to set the agenda for the day and the projects that will be worked on. Then, class time will be spent pair programming, and having various mentor workshops. The instructor will also conduct tutorial walkthroughs and ask the students to demonstrate and share their knowledge through code reviews. During certain classes, guest instructors will teach a session, providing a new perspective or offering their unique experiences as a software developer. Lectures on entrepreneurship and business application will also occur, highlighting the key pieces to provide context to the web application you are building.
@@ -79,6 +79,7 @@
           %p  Outside of the official class time, students will be encouraged to interact with each other, collaborate in the space to work on their projects and get advice and support from their mentor, the staff, and the instructor. Optional evening workshops will also be hosted by guest lecturers.
           .cl-50  
           #weekly-schedule
+            %img#ladder{:alt => "Visual Schedule", :src => "images/schedule_ladder_03.png"}/
             %h2 Learner Mode
             %li Week 1: Intro to Code Academy and programming with Ruby
             %li Week 2: The basics of Ruby on Rails applications
@@ -87,14 +88,14 @@
             %li Week 5: Waist deep with sample projects and tutorials
             %li Week 6: Reviewing and refining what you’ve learned
             %li Week 7: Preparing for your own project
-            .cl-15
-            %h2 Start-Up Mode
-            %p  After you have achieved zen and taken the arduous path to learning the basics of Ruby on Rails, the last four weeks of Code Academy will be time for you to apply these skills to solve your own problem. These four weeks are sure the most challenging, but also the most rewarding as well.
             %li Week 8: Planning/Setup
             %li Week 9: UI Design
             %li Week 10: Coding the features and functionality
             %li Week 11: Polishing your prototype
             %li Week 12: Final presentation
+            .cl-15
+            %h2 Start-Up Mode
+            %p  After you have achieved zen and taken the arduous path to learning the basics of Ruby on Rails, the last four weeks of Code Academy will be time for you to apply these skills to solve your own problem. These four weeks are sure the most challenging, but also the most rewarding as well.
             %h2 Demo Day
             %p This is the grand finale.  For the final presentation, we invite the best of the Chicago entrepreneurship and tech communities - including CEOs, entrepreneurs, developers, and investors - for you to showcase your product and your learning.  You walk away with the chance to get invested in, get hired by a company, or join an apprenticeship at a top development firm.
           %p#cross-links
@@ -102,8 +103,10 @@
             |
             %a.cross-link{:href => "#3", :title => "Go to Students"} Next »
       .panel{:title => "Students"}
-        .wrapper
-          %h1 Does this sound like you?
+        .container
+          %h1#tab3 Does this sound like you?
+          .cl-50
+          %img#profile{:alt => "Student Profile", :src => "images/students_profile_03.png"}/
           %h2 The Anti-Quitter
           %p Passionate. You care about doing meaningful work. You have a burning desire to solve problems. You want to make a dent in the universe.
           %p
@@ -115,8 +118,8 @@
             |
             %a.cross-link{:href => "#4", :title => "Go to Space"} Next »
       .panel{:title => "Space"}
-        .wrapper
-          %h1 The best environment you've ever done work in.
+        .container
+          %h1#tab4 The best environment you've ever done work in.
           %h3#lead We looked at some of the top software development and start-up environments around, and have designed the ultimate blend of collaborative and functional furniture and resources. We're nervous about having to kick you all out after hours.
           .equipment
             #imacs

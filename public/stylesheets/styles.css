@@ -304,7 +304,7 @@ nav {
 	
 	img#program-preview {
 		clear: both;
-	    left: -319px;
+	    left: -290px;
 	    margin: 0 auto;
 	    position: relative;
 	    top: 135px;
@@ -313,13 +313,13 @@ nav {
 	.buttons {
 		display: block;
 		float: left;
-		left: 322px;
+		left: 351px;
 		position: relative;
 		top: 200px;
 	}
 	
 		.buttons.last {
-			left: 872px;
+			left: 898px;
 			margin-right: 0 !important;
 			position: relative;
 			top: 53px;
@@ -341,9 +341,14 @@ nav {
 }
 
 
+
+
 		
 /* ============= Home Page CSS - Part 1 ============= */
 
+#home-rotator {
+	display: none;
+}
 
 #value-1, #value-2, #value-3, #value-4, #value-5 {
 	margin-top: 50px;
@@ -421,13 +426,14 @@ nav {
 	top: 50px;
 }
 
-	#part-1, #part-2, #part-3, #part-4, #part-5 {
+	#part-1, #part-2, #part-3, #part-4, #part-5, #tab2, #tab3, #tab4 {
 		margin-top: 50px;
 		text-align: center;
 	}
 	
 		#part-1 h1 {
-			font-size: 50px;
+			font-size: 60px;
+			text-transform: uppercase;
 		}
 		
 		#part-1 p {
@@ -445,10 +451,24 @@ nav {
 #weekly-schedule li {
 	list-style-type: none;
 	text-align: left;
+	font-size: 20px;
+	margin-bottom: 28px;
+}
+
+#ladder {
+	float: left;
 }
 
 #ca-students h1, #students h1, #space h1, #space h3 {
 	text-align: center;
+}
+
+/* ============== Students Section ============== */
+
+#profile {
+	width: 450px;
+	display: block;
+	margin: 0 auto;
 }
 
 
