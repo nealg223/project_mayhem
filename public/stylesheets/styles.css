@@ -353,7 +353,7 @@ nav {
 	#people_preview {
 		clear: both;
 		margin-left: 25px;
-		margin-top: 45px;
+		margin-top: 34px;
 		position: relative;
 	}
 	#meet_team_button {
@@ -473,17 +473,30 @@ nav {
 
 #weekly-schedule {
 	clear: both;
+	margin: 0 auto;
+	width: 700px;
 }
+
+	#weekly-schedule h2 {
+		bottom: 15px;
+		font-family: Helvetica Neue,Helvetica;
+		font-size: 28px;
+		font-weight: normal;
+		left: -29px;
+		position: relative;
+		text-align: center;	
+	}
 
 #dates img {
 	width: 245px;
 }
 
 #weekly-schedule li {
+	font-family: 'Serif12BetaRegular';
+	font-size: 19px;
 	list-style-type: none;
+	margin-bottom: 28.5px;
 	text-align: left;
-	font-size: 20px;
-	margin-bottom: 28px;
 }
 
 #ladder {
@@ -531,6 +544,11 @@ h1#tab4 {
 	float: left;
 }
 
+	.photo img {
+		-moz-box-shadow: 1px 1px 2px #DEDEDE;
+		-webkit-box-shadow: 1px 1px 2px #DEDEDE;
+		-box-shadow: 1px 2px 2px #DEDEDE;
+	}
 .description {
 	float: right;
 	width: 550px;
@@ -692,6 +710,8 @@ h1#tab4 {
 		margin-right: 12px;
 		padding-left: 0;
 	}
+	
+
 	
 #advisers {
 	clear: both;
