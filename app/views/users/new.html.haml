@@ -8,7 +8,7 @@
         - @user.errors.full_messages.each do |msg|
           %li= msg
   .wrapper
-    %p Sign up for our mailing list and receive the code academy brochure in your inbox!
+    %p Get the Code Academy brochure in your inbox!
     .field
       = f.label :name
       %br/
@@ -17,6 +17,9 @@
       = f.label :email
       %br/
       = f.text_field :email
-      .field
-    .actions
+    .field
+      = check_box_tag(:mailing_list, "no", false)
+      = label_tag(:mailing_list, "Sign up to get future mailings from Code Academy")
+    .field
+      .actions
       = f.submit(value="Sign Up")
