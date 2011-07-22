@@ -345,7 +345,25 @@ nav {
   height:400px;
   padding:20px 0 0 0;
 }
-  .learn_best.inner {}
+  .learn_best.inner {
+	margin: 0 auto;
+	position: relative;
+}
+
+	#people_preview {
+		clear: both;
+		margin-left: 25px;
+		margin-top: 45px;
+		position: relative;
+	}
+	#meet_team_button {
+		bottom: 97px;
+		clear: both;
+		left: 99px;
+		margin: 0 auto;
+		position: relative;
+		width: 767px;
+	}
 
 .Fr {
 	float: right;
