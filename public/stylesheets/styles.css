@@ -492,7 +492,8 @@ nav {
 /* ============== Space Section =============== */
 
 h1#tab4 {
-	padding: 0 32px;
+	padding: 0 84px;
+	margin-bottom: 18px;
 }
 
 .photo {
