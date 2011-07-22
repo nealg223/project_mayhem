@@ -1,22 +1,9 @@
 ProjectMayhem::Application.routes.draw do
   
-  resources :users
-
-  get "pages/home"
+  resources :users, :only => [:new, :show]
   
-  get "pages/program"
-
-  get "pages/staff"
-
-  get "pages/community"
-
-  get "pages/videos"
-
-  get "pages/apply"
-  
-  get "pages/sandbox"
-  
-  get "users/download"
+  match "requestinformation" => "users#new"
+  match "informationrequested" => "users#show"
   
   match '/home',      :to => 'pages#home'
   match '/program',   :to => 'pages#program'
@@ -24,9 +11,10 @@ ProjectMayhem::Application.routes.draw do
   match '/community', :to => 'pages#community'
   match '/videos',    :to => 'pages#videos'
   match '/apply',     :to => 'pages#apply'
-  match '/sandbox',   :to => 'pages#sandbox'
-  
+  match '/sandbox',   :to => 'pages#sandbox'  
   match '/download',  :to => 'users#download'
+  match "email_registration_not_found" => "pages#email_registration_not_found"
+
 
   root :to => "pages#home"
   

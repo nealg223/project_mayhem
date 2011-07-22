@@ -13,7 +13,10 @@ class UsersController < ApplicationController
   # GET /users/1
   # GET /users/1.xml
   def show
-    @user = User.find(params[:id])
+    
+    redirect_to("/email_registration_not_found") and return unless params[:email]
+    @user = User.find_by_email(params[:email])
+    redirect_to("/email_registration_not_found") and return unless @user
 
     respond_to do |format|
       format.html # show.html.erb
@@ -47,7 +50,7 @@ class UsersController < ApplicationController
         # Tell the UserMailer to send a welcome Email after save
         UserMailer.welcome_email(@user).deliver
         
-        format.html { redirect_to(@user, :notice => 'Email sent to ') }
+        format.html { redirect_to(informationrequested_path(:email => @user.email), :notice => 'Email sent to ') }
         format.xml  { render :xml => @user, :status => :created, :location => @user }
       else
         format.html { render :action => "new" }
