@@ -287,6 +287,7 @@ nav {
 		font-size: 83px;
 		font-weight: 700;
 		text-transform: uppercase;
+		margin-top: -20px;
 	}
 	
 	#splash-1 h3 {
@@ -297,11 +298,18 @@ nav {
 		padding: 0 200px;
 		position: relative;
 		text-align: center;
+		margin-top: 8px;
+		color: #777;
 	}
 	
 	#splash-1 img {
 		right: 20px;
 		top: -30px;
+	}
+	
+	img#icons {
+		top: -56px;
+		position: relative;
 	}
 	
 	img#program-preview {
@@ -311,17 +319,24 @@ nav {
 		margin-left: 25px;
 	}
 	
+#options {
+	left: 7px;
+	margin: 0 auto;
+	position: relative;
+	top: -111px;
+	width: 767px;
+}
+	
 	.buttons {
 		display: block;
-		left: 351px;
+		float: left;
+		margin: 0 auto;
 	}
 	
-		.buttons.last {
-			left: 898px;
-			margin-right: 0 !important;
-			position: relative;
-			top: 53px;
-		}
+	.buttons.last {
+		margin-right: 0 !important;
+	}
+
 
 
 #learn_best {
