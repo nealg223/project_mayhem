@@ -220,10 +220,10 @@ nav {
 	
 }
 #mast-wrapper {
-  height:397px;
-  background: url(../images/mast_bg.gif) repeat-x;
-  
-}
+  height:400px;
+  /*background: url(../images/mast_bg.gif) repeat-x;*/
+  }
+
 #mast-body {
   text-align:center;
 }
@@ -495,16 +495,37 @@ h1#tab4 {
 	padding: 0 32px;
 }
 
-li.equipment img {
-	height: 200px;
-	display: block;
+.photo {
+	float: left;
 }
 
-#span.item, #span.description {
-	float: left;
-	clear: both;
-	width: 400px;
+.description {
+	float: right;
+	width: 550px;
+	margin-top: 20px;
 }
+	.description h2 {
+		font-family: Helvetica Neue, Helvetica, sans-serif;
+		font-weight: 600;
+	}
+
+	#pairing {
+		margin-bottom: 75px;
+	}
+	
+	#chairs {
+		margin-bottom: 100px;
+	}
+	
+	#whiteboard {
+		margin-bottom: 45px;
+	}
+	
+	#tables {
+		margin-bottom: 20px;
+	}
+
+
 
 /*======== Staff Section ======== */
 
