@@ -12,7 +12,8 @@
     #buttons
       %a{:href => "/apply"}
         %img#submit{:alt => "Submit Application", :src => "images/start_app_03.png"}/
-      %img{:alt => "Get Program Info", :src => "images/get_program_info_03.png"}/
+      %a{:href => new_information_request_path }
+        %img{:alt => "Get Program Info", :src => "images/get_program_info_03.png"}/
     /= image_tag '../images/mast_temp.jpg'
 #testimonial
   .testimonial.inner
@@ -38,7 +39,7 @@
   .learn_best.inner
     %img#people_preview{:alt => "People Preview" , :src => "images/people_preview_03.png"}/
     #meet_team_button
-      %a{:href => "#"}
+      %a{:href => "/staff"}
         %img{:alt => "Meet Code Academy" , :src => "images/meet_team_button_03.png"}/
     
     
