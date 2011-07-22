@@ -254,6 +254,10 @@ nav {
 			margin-left: 250px;
 			margin-top: 21px;
 		}
+		
+		img#submit a:hover {
+			color: black;
+		}
 	
 #testimonial {
   margin:6px 0 0 0;
@@ -288,34 +292,28 @@ nav {
 	#splash-1 h3 {
 		font-family: 'Serif12BetaRegular',Helvetica;
 		font-size: 30px;
-		left: 300px;
+		font-weight: lighter;
 		line-height: 1.3;
+		padding: 0 200px;
 		position: relative;
 		text-align: center;
-		width: 800px;
-		font-weight: lighter;
 	}
 	
 	#splash-1 img {
-		position: relative;
 		right: 20px;
 		top: -30px;
 	}
 	
 	img#program-preview {
 		clear: both;
-	    left: -290px;
-	    margin: 0 auto;
-	    position: relative;
-	    top: 135px;
+		margin-top: 45px;
+		position: relative;
+		margin-left: 25px;
 	}
 	
 	.buttons {
 		display: block;
-		float: left;
 		left: 351px;
-		position: relative;
-		top: 200px;
 	}
 	
 		.buttons.last {
