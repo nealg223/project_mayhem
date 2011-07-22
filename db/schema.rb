@@ -12,10 +12,11 @@
 
 ActiveRecord::Schema.define(:version => 20110717163442) do
 
-  create_table "users", :force => true do |t|
+  create_table "information_requests", :force => true do |t|
     t.string   "name"
     t.string   "email"
     t.string   "login"
+    t.boolean  "mailing_list", :default => false
     t.datetime "created_at"
     t.datetime "updated_at"
   end

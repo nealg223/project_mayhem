@@ -1,10 +1,11 @@
 ProjectMayhem::Application.routes.draw do
   
-  resources :users, :only => [:new, :show]
-  
-  match "requestinformation" => "users#new"
-  match "informationrequested" => "users#show"
-  
+  resources :information_requests, :only => [:new, :create] do
+    collection do
+      get 'thanks' => "information_requests#thanks"
+    end
+  end
+    
   match '/home',      :to => 'pages#home'
   match '/program',   :to => 'pages#program'
   match '/staff',     :to => 'pages#staff'

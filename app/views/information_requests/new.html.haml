@@ -1,0 +1,25 @@
+= form_for(@information_request) do |f|
+  - if @information_request.errors.any?
+    #error_explanation
+      %h2
+        = pluralize(@information_request.errors.count, "error")
+        prohibited the brochure from sending:
+      %ul
+        - @information_request.errors.full_messages.each do |msg|
+          %li= msg
+  .wrapper
+    %p Get the Code Academy brochure in your inbox!
+    .field
+      = f.label :name
+      %br/
+      = f.text_field :name
+    .field
+      = f.label :email
+      %br/
+      = f.text_field :email
+    .field
+      = check_box_tag(:mailing_list, "no", false)
+      = label_tag(:mailing_list, "Sign up to get future mailings from Code Academy")
+    .field
+      .actions
+      = f.submit(value="Sign Up")
