@@ -621,6 +621,8 @@ h1#tab4 {
 				line-height: 1;
 				color: #000;
 			}
+			
+	mentor-list
 
 
 #instructor {
@@ -658,6 +660,7 @@ h1#tab4 {
 
 	#mentor-list li.bio {
 		margin-top: 50px;
+		width: 107px;
 	}
 	
 	.last {
