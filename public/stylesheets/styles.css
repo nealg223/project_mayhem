@@ -45,7 +45,7 @@
 body {
 	font-family: Helvetica, sans-serif;
 	text-align: left;
-	background: url(../images/8bit_bg_03.png) repeat;
+	background: #E6E6E6;
 	padding-bottom: 50px;
 }
 
@@ -60,11 +60,11 @@ h1 {
 
 h2 {
 	color: #0973BA;
-	font-family: 'Serif12BetaRegular';
  	font-size: 24px;
 	font-weight: 100;
 	margin-bottom: 10px;
 	text-align: left;
+	text-shadow: #418FC4 0 1px 2px;
 }
 
 

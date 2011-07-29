@@ -86,7 +86,7 @@ p.intro { border-bottom: 1px solid #ccc; margin-bottom: 20px; padding: 20px 0 30
 .stripNav a { /* The nav links */
 	font-size: 10px;
 	text-align: center;
-	line-height: 32px;
+	line-height: 24px;
 	text-decoration: none;
 	display: block;
 	padding: 10px 20px 10px 20px;
@@ -96,7 +96,9 @@ p.intro { border-bottom: 1px solid #ccc; margin-bottom: 20px; padding: 20px 0 30
 
 .stripNav li.tab1, .stripNav li.tab2, .stripNav li.tab3, .stripNav li.tab4, .stripNav li.tab5 {
 	background: #f8f8f8;
-	height: 40px;
+	height: 45px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 }
 
 .stripNav li a {
