@@ -800,8 +800,11 @@ h3#more-videos {
 }
 
 #apply-button {
-	position: relative;
-	left: 175px;
+	left:175px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	width:960px;
 }
 
 #apply-button a {
@@ -816,8 +819,11 @@ h3#more-videos {
 }
 
 #apply-button h3 {
-	text-align: center;
-	clear: both;
+	clear:both;
+	font-size:30px;
+	left:-175px;
+	position:relative;
+	text-align:center;
 }
 
 #apply-button img {
