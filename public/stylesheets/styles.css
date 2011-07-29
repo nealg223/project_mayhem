@@ -799,11 +799,15 @@ h3#more-videos {
 	text-align: center;
 }
 
+#apply-button {
+	position: relative;
+	left: 175px;
+}
+
 #apply-button a {
 	bottom: 200px;
 	color: #C32127;
 	font-size: 50px;
-	left: 150px;
 	padding: 10px;
 	position: relative;
 	text-align: center;
