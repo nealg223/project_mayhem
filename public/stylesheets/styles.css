@@ -779,8 +779,12 @@ h3#more-videos {
 	
 /* ============= Apply Page =========== */
 
+#apply #main-footer {
+	height: 200px;
+}
+
 #apply {
-	height: 800px;
+	min-height: 800px;
 }
 
 #apply-header h1 {
@@ -792,6 +796,8 @@ h3#more-videos {
 #app-deadline {
 	font-size: 24px;
 	text-align: center;
+	position: relative;
+	bottom: 100px;
 }
 
 #course-info h3 {
@@ -800,7 +806,6 @@ h3#more-videos {
 }
 
 #apply-button {
-	left:175px;
 	margin-left:auto;
 	margin-right:auto;
 	position:relative;
@@ -808,7 +813,6 @@ h3#more-videos {
 }
 
 #apply-button a {
-	bottom: 200px;
 	color: #C32127;
 	font-size: 50px;
 	padding: 10px;
