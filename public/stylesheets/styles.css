@@ -823,18 +823,20 @@ h3#more-videos {
 }
 
 #apply-button h3 {
-	clear:both;
-	font-size:30px;
-	left:-175px;
-	position:relative;
-	text-align:center;
+	clear: both;
+	color: white;
+	font-size: 80px;
+	left: 0;
+	position: relative;
+	text-align: center;
+	text-shadow: 0 1px 0 #DDDDDD, 0 2px 0 #DDDDCC, 0 3px 0 #DDDDBB, 0 4px 0 #CCCCCC;
 }
 
 #apply-button img {
 	width: 200px;
 	display: block;
 	position: relative;
-	left: 200px;
+	left: 375px;
 	
 }
 
