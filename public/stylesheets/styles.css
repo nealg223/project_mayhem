@@ -182,6 +182,8 @@ nav {
 	
 		nav li.last a {
 			color: red;
+			font-weight:600;
+			text-shadow:#000000 0 1px 2px;
 		}
 
 
@@ -266,8 +268,8 @@ nav {
 	background: #0973BA;
 }
 	#buttons {
-		bottom: 182px;
-		left: 150px;
+		bottom:174px;
+		left:224px;
 		margin-right: 10px;
 		position: relative;
 	}
@@ -368,6 +370,7 @@ nav {
   text-align:center;
   height:400px;
   padding:20px 0 0 0;
+background: black;
 }
   .learn_best.inner {
 	margin: 0 auto;
