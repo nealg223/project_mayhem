@@ -45,8 +45,23 @@
 body {
 	font-family: Helvetica, sans-serif;
 	text-align: left;
-	background: #E6E6E6;
 	padding-bottom: 50px;
+	
+	background-image: -webkit-gradient(
+	    linear,
+	    left bottom,
+	    left top,
+	    color-stop(0.35, rgb(245,245,245)),
+	    color-stop(0.68, rgb(250,250,250)),
+	    color-stop(0.84, rgb(247,247,247))
+	);
+	background-image: -moz-linear-gradient(
+	    center bottom,
+	    rgb(245,245,245) 35%,
+	    rgb(250,250,250) 68%,
+	    rgb(247,247,247) 84%
+	);
+	
 }
 
 h1 {
