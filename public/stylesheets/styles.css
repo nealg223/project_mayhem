@@ -424,6 +424,7 @@ background: black;
 	background: #0a74ba;
 }
 
+
 #value-prop {
 	padding: 25px;
 }
@@ -659,7 +660,6 @@ h1#tab4 {
 		line-height: 1.3em;
 		margin: 25px 0;
 		text-align: center;
-		text-shadow: rgba(84, 157, 207, 0.796875) 0 1px 2px
 	}
 	
 	li.bio {
@@ -678,6 +678,8 @@ h1#tab4 {
 		
 			li.bio a .fn {
 				font-size: 19px;
+				font-weight:100;
+				/*text-shadow:#418FC4 0 1px 2px;*/
 			}
 			
 			li.bio a .role {
@@ -793,10 +795,10 @@ h1#tab4 {
 	}
 	
 	#advisers li.bio .fn {
-		font-family: 'NewsCycleRegular';
 		color: #C32127;
 		position: relative;
 		top: 3px;
+		font-weight:100;
 	}
 	
 	#advisers li.bio .role {
