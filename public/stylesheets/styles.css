@@ -104,7 +104,7 @@ h3 {
 }
 
 p {
-	font-family: 'Serif12BetaRegular', Helvetica;
+	font-family: Helvetica, 'Serif12BetaRegular', sans-serif;
 	font-size: 18px;
 	font-weight: lighter;
 	line-height: 24px;
@@ -307,15 +307,16 @@ nav {
 	}
 	
 	#splash-1 h3 {
-		font-family: 'Serif12BetaRegular',Helvetica;
+		font-family: Helvetica;
 		font-size: 30px;
-		font-weight: lighter;
+		font-weight:100;
 		line-height: 1.3;
 		padding: 0 200px;
 		position: relative;
 		text-align: center;
 		margin-top: 8px;
 		color: #777;
+		text-shadow:#EEEEEE 0 2px 0;
 	}
 	
 	#splash-1 img {
@@ -473,8 +474,14 @@ nav {
 	top: 50px;
 }
 
+h3#lead {
+	font-family: Helvetica, 'Serif12BetaRegular', sans-serif;
+	font-weight:600;
+	text-shadow:#FFFFFF 0 2px 0;
+}
+
 	#part-1, #part-2, #part-3, #part-4, #part-5, #tab2, #tab3, #tab4 {
-		margin-top: 50px;
+		margin-top: 30px;
 		text-align: center;
 	}
 	
@@ -484,7 +491,12 @@ nav {
 		}
 		
 		#part-1 p {
-			margin-top: 18px;
+			margin-top: 25px;
+		}
+		
+		#part-1 p, #part-2 p, #part-3 p, #part-4 p {
+			font-family: Helvetica;
+			font-weight: 100;
 		}
 
 #weekly-schedule {
