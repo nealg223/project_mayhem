@@ -51,16 +51,17 @@ body {
 	    linear,
 	    left bottom,
 	    left top,
-	    color-stop(0.35, rgb(245,245,245)),
-	    color-stop(0.68, rgb(250,250,250)),
-	    color-stop(0.84, rgb(247,247,247))
+	    color-stop(0.35, rgb(255,255,255)),
+	    color-stop(0.68, rgb(255,255,255)),
+	    color-stop(0.84, rgb(245,245,245))
 	);
 	background-image: -moz-linear-gradient(
 	    center bottom,
-	    rgb(245,245,245) 35%,
-	    rgb(250,250,250) 68%,
-	    rgb(247,247,247) 84%
+	    rgb(255,255,255) 35%,
+	    rgb(255,255,255) 68%,
+	    rgb(245,245,245) 84%
 	);
+	
 	
 }
 
@@ -181,6 +182,8 @@ nav {
 	
 		nav li.last a {
 			color: red;
+			font-weight:600;
+			text-shadow:#000000 0 1px 2px;
 		}
 
 
@@ -265,8 +268,8 @@ nav {
 	background: #0973BA;
 }
 	#buttons {
-		bottom: 182px;
-		left: 150px;
+		bottom:174px;
+		left:224px;
 		margin-right: 10px;
 		position: relative;
 	}
@@ -332,6 +335,7 @@ nav {
 	img#icons {
 		top: -56px;
 		position: relative;
+		left: 1px;
 	}
 	
 	img#program-preview {
@@ -366,6 +370,7 @@ nav {
   text-align:center;
   height:400px;
   padding:20px 0 0 0;
+background: black;
 }
   .learn_best.inner {
 	margin: 0 auto;
@@ -503,6 +508,31 @@ h3#lead {
 			font-family: Helvetica;
 			font-weight: 100;
 		}
+		
+		#part-3 h3 {
+			font-style: italic;
+		}
+		
+		#part-4 h3 {
+			margin-bottom:-8px;
+			margin-top:25px;
+		}
+		
+#skills li, #build li {
+	background: url("../images/small-hashrocket_03.png") no-repeat scroll 1px 50% transparent;
+	margin-bottom: 7px;
+	padding-left: 25px;
+	position: relative;
+}
+
+p.callout {
+	border: 1px solid #ccc;
+	background: white;
+	font-style: italic;
+	padding: 10px;
+	font-weight: 100;
+	
+}
 
 #weekly-schedule {
 	clear: both;
@@ -525,10 +555,10 @@ h3#lead {
 }
 
 #weekly-schedule li {
-	font-family: 'Serif12BetaRegular';
-	font-size: 19px;
+	font-family: Helvetica, sans-serif;
+	font-size: 20px;
 	list-style-type: none;
-	margin-bottom: 28.5px;
+	margin-bottom: 27.3px;
 	text-align: left;
 }
 
@@ -862,8 +892,9 @@ h3#more-videos {
 
 #apply-button h3 {
 	clear: both;
-	color: white;
+	color: black;
 	font-size: 80px;
+	margin-bottom: 9px;
 	left: 0;
 	position: relative;
 	text-align: center;
