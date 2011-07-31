@@ -332,6 +332,7 @@ nav {
 	img#icons {
 		top: -56px;
 		position: relative;
+		left: 1px;
 	}
 	
 	img#program-preview {
@@ -503,6 +504,13 @@ h3#lead {
 			font-family: Helvetica;
 			font-weight: 100;
 		}
+		
+#skills li {
+	background: url("../images/small-hashrocket_03.png") no-repeat scroll 1px 50% transparent;
+	margin-bottom: 7px;
+	padding-left: 25px;
+	position: relative;
+}
 
 #weekly-schedule {
 	clear: both;
