@@ -551,10 +551,10 @@ p.callout {
 }
 
 #weekly-schedule li {
-	font-family: 'Serif12BetaRegular';
-	font-size: 19px;
+	font-family: Helvetica, sans-serif;
+	font-size: 20px;
 	list-style-type: none;
-	margin-bottom: 28.5px;
+	margin-bottom: 27.3px;
 	text-align: left;
 }
 
@@ -888,8 +888,9 @@ h3#more-videos {
 
 #apply-button h3 {
 	clear: both;
-	color: white;
+	color: black;
 	font-size: 80px;
+	margin-bottom: 9px;
 	left: 0;
 	position: relative;
 	text-align: center;
