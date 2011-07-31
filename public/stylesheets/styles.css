@@ -248,13 +248,18 @@ nav {
 		top: 35px;
 	}
 	
-	p#sell {
+	p#sell, p#tag {
 		bottom: 159px;
 		color: white;
 		left: 399px;
 		position: relative;
 		width: 550px;
-		
+		text-shadow:rgba(38, 31, 98, 0.496094) 0 2px 0;
+		font-size: 20px;		
+	}
+	
+	p#tag {
+		margin-top: -10px;
 	}
 .splash {
 	background: #0973BA;
