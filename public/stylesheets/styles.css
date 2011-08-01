@@ -115,6 +115,10 @@ p {
 	letter-spacing: 0.3px;
 }
 
+p strong {
+	font-weight: 600;
+}
+
 ul li {
 	list-style-type: none;
 }
