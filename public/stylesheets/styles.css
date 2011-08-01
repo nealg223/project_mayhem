@@ -852,6 +852,8 @@ h1#tab4 {
 	}
 	
 	#advisers li.bio .role {
+		font-size: 13px;
+		left: 0;
 		position: relative;
 		top: 5px;
 	}
