@@ -403,7 +403,7 @@ nav {
   text-align:center;
   height:400px;
   padding:20px 0 0 0;
-background: black;
+  background: #0973BA;
 }
   .learn_best.inner {
 	margin: 0 auto;
@@ -481,6 +481,10 @@ background: black;
 	#value-prop h2 {
 		text-align: center;
 	}
+	
+.testimonial.inner img {
+	padding: 15px;
+}
 
 
 /* ======= Program Page CSS ======== */
