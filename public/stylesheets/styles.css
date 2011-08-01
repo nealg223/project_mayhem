@@ -161,9 +161,9 @@ ul {
 }
 
 #logo {height: 50px;
-    left: 308px;
     padding: 15px 0 0;
-    position: absolute;}
+    position: absolute;
+	width: 270px;}
 
 nav {
 	float: right;
