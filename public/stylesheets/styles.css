@@ -206,8 +206,23 @@ nav {
 
 
 #main-footer {
-	background: url("../images/head-bg.jpg") repeat;
-	height: 90px;
+/*  background: url("../images/head-bg.jpg") repeat;
+*/	
+  background-image: -webkit-gradient(
+	    linear,
+	    left bottom,
+	    left top,
+	    color-stop(0.35, rgb(0,63,122)),
+	    color-stop(0.68, rgb(0,53,103)),
+	    color-stop(0.84, rgb(0,47,90))
+	);
+	background-image: -moz-linear-gradient(
+	    center bottom,
+	    rgb(0,63,122) 35%,
+	    rgb(0,53,103) 68%,
+	    rgb(0,47,90) 84%
+	);
+  height: 90px;
 	border-top: 3px solid rgba(0, 0, 0, 0.2);
 	text-align:left;
 	position: relative;
