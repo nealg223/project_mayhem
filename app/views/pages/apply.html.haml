@@ -1,11 +1,17 @@
 #apply.container
-  #apply-header
+  #apply-splash
+    %img{:alt => "Code Academy", :src => "images/ca_logo_copy_03.png"}/
+    %div{:style => "clear:both;"}
+  #apply-header.Fr
     %h1 Join the builders movement.
-    .cl-15
-  #course-info
     %h3 Only 12 people will be accepted.
+  #apply-button
+    %a{:href => "http://www.formstack.com/forms/?1096528-6YgVaD43vw"}
+      %button.button.red Apply Now!
+    %a{:href => "http://www.formstack.com/forms/?1096528-6YgVaD43vw"}
     /%h3 You can decide to commit once you're accepted, so there's no reason not to throw your hat in the ring.
     .cl-15
+  %div{:style => "clear:both;"}
   #app-timeline
     %p
       %strong August 26th -
@@ -26,10 +32,6 @@
     %p The specific dates and time of day will be determined based on the accepted applicant's preferences/availability as indicated at the end of the application.
     %p Good Luck!
     .cl-15
-  #apply-button
-    %a{:href => "http://www.formstack.com/forms/?1096528-6YgVaD43vw"}
-      %button.button.red Apply Now!
-    %a{:href => "http://www.formstack.com/forms/?1096528-6YgVaD43vw"}
       %img{:href => "Apply Icon", :src => "images/apply_now_box_03.png"}/
     .cl-50
   %div{:style => "clear:both;"}

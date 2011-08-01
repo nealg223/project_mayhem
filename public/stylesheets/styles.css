@@ -427,11 +427,6 @@ nav {
 		width: 767px;
 	}
 
-.Fr {
-	float: right;
-	display: block;
-	width: 500px;
-}
 
 
 
@@ -923,7 +918,7 @@ h3#more-videos {
 	cursor: pointer;
 	text-align: center;
 	text-decoration: none;
-	font: 43px/100% Arial, Helvetica, sans-serif;
+	font: 35px/100% Arial, Helvetica, sans-serif;
 	padding: .5em 2em .55em;
 	text-shadow: 0 1px 1px rgba(0,0,0,.3);
 	-webkit-border-radius: .5em; 
@@ -964,13 +959,31 @@ h3#more-videos {
 	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#aa1317', endColorstr='#ed1c24');
 }
 
+.Fr {
+	float: right;
+	display: block;
+	width: 610px;
+}
 
+#apply-header {
+	position: relative;
+	text-align: center;
+	top: 25px;
+}
+	#apply-header .button.red {
+		position: relative;
+	}
 
 #apply-header h1 {
 	font-size: 50px;
 	text-align: center;
-	padding: 20px;
+	padding: 10px;
 }
+
+	#apply-header h3 {
+		text-align: center;
+		font-size: 22px;
+	}
 
 #app-timeline {
 	border: 1px solid #000;
@@ -979,6 +992,15 @@ h3#more-videos {
 	padding: 10px;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 57px;
+}
+
+#apply-splash {
+	float: left;
+	left: 100px;
+	position: relative;
+	top: 25px;
+	width: 270px;
 }
 
 #app-info {
@@ -1020,6 +1042,8 @@ h3#more-videos {
 	position: relative;
 	text-align: center;
 	text-decoration: none;
+	left: 54px;
+	top: 67px;
 	
 }
 
