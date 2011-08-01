@@ -975,10 +975,18 @@ h3#more-videos {
 	bottom: 100px;
 }
 
+#course-info p {
+	text-align: left;
+}
+
 #course-info h3 {
 	font-size: 22px;
 	text-align: center;
 }
+
+	#course-info strong {
+		color: #C32127;
+	}
 
 #apply-button {
 	margin-left:auto;
