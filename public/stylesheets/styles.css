@@ -986,7 +986,7 @@ h3#more-videos {
 	}
 
 #app-timeline {
-	border: 1px solid #000;
+	border: 1px solid rgba(0,0,0, 0.2);
 	width: 600px;
 	display: block;
 	padding: 10px;
@@ -994,6 +994,27 @@ h3#more-videos {
 	margin-right: auto;
 	margin-top: 57px;
 }
+
+#app-timeline p strong {
+	color: #c32127;
+}
+
+	#timeline-title {
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		text-align: center;
+		top: 70px;
+		width: 300px;
+	}
+
+	#timeline-title h3 {
+		padding: 8px;
+		text-align: center;
+		background: #C32127;
+		color: white;
+		text-shadow: 1px 2px 2px #000;
+	}
 
 #apply-splash {
 	float: left;
@@ -1043,7 +1064,7 @@ h3#more-videos {
 	text-align: center;
 	text-decoration: none;
 	left: 54px;
-	top: 67px;
+	top: 52px;
 	
 }
 
