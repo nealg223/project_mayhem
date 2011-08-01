@@ -972,6 +972,19 @@ h3#more-videos {
 	padding: 20px;
 }
 
+#app-timeline {
+	border: 1px solid #000;
+	width: 600px;
+	display: block;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#app-info {
+	
+}
+
 #app-deadline {
 	font-size: 22px;
 	text-align: center;
