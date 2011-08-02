@@ -197,7 +197,8 @@ nav {
 		text-shadow: 0px 2px 2px #000000;
 	}
 	
-		nav li a:hover {
+		nav li a:hover,
+    nav li a.active {
 			color: #7DB1DD;
 			text-shadow: 0 1px 1px #000;
 		}
