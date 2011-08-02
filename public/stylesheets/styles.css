@@ -342,7 +342,11 @@ nav {
   height:710px;
   background-color:#fff;
 }
-#solve.inner {
+
+.solve.inner h3 strong {
+	bottom: 26px;
+	color: black;
+	position: relative;
 }
 
 	#splash-1 {
