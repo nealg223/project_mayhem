@@ -994,11 +994,23 @@ h3#more-videos {
 
 #apply p.callout {
 	border-left: 0 none;
+	font-size: 20px;
 	left: 25px;
+	margin-bottom: -57px;
 	position: relative;
-	top: 65px;
+	top: -14px;
 	width: 410px;
+	height: 251px;
 }
+
+	#apply p.callout em {
+		display: block;
+		font-size: 16px;
+		left: 27px;
+		position: relative;
+		text-align: left;
+		top: -36px;
+	}
 
 .button {
 	display: inline-block;
