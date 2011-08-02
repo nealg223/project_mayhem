@@ -979,8 +979,49 @@ h3#more-videos {
 	font-size: 24px;
 	text-align: center;
 	margin-bottom: 75px;
+}
+
+#chicago-quotes {
+	
 }	
 
+#chicago-quotes p.callout {
+	font-size: 18px;
+	position: relative;
+	top: -13px;
+	border: none;
+	padding-bottom: -10px;	
+}
+
+	#chicago-quotes p.callout .troy {
+		margin-bottom: 0px;
+		margin-top: -15px;
+	}
+
+#chicago-quotes p.callout em {
+	display: block;
+	font-size: 16px;
+	left: 27px;
+	position: relative;
+	text-align: left;
+	top: -36px;
+}
+
+
+	#chicago-quotes .left {
+		width: 450px;
+		height: 171px;
+	}
+	
+	#chicago-quotes .right {
+		width: 450px;
+		height: 171px;
+	}
+	
+	#chicago-quotes p.callout .right {
+		margin-bottom: -19px;
+	}
+	
 	
 /* ============= Apply Page =========== */
 
