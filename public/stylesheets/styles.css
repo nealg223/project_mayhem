@@ -554,8 +554,6 @@ h3#lead {
 		}
 		
 		#part-1 p, #part-2 p, #part-3 p, #part-4 p {
-			font-family: Helvetica;
-			font-weight: 100;
 		}
 		
 		#part-3 h3 {
@@ -575,12 +573,42 @@ h3#lead {
 }
 
 p.callout {
-	border: 1px solid #ccc;
-	background: white;
+	bottom: 280px;
+	border-left: .5px dashed rgba(0, 0, 0, 0.4);
+	font-family: 'Serif12BetaRegular';
+	font-size: 24px;
 	font-style: italic;
-	padding: 10px;
 	font-weight: 100;
+	line-height: 1.2;
+	padding: 10px;
+	position: relative;
+	color: rgba(0,0,0,.6);
 	
+}
+
+p.callout strong {
+	bottom: 49px;
+	font-weight: normal;
+	left: 28px;
+	position: relative;
+}
+
+p.callout em {
+	bottom: 40px;
+	color: black;
+	left: 27px;
+	position: relative;
+}
+
+.opening {
+	font-size: 80px;
+	color: #418FC4;
+}
+
+.right {
+	float: right;
+	height: 250px;
+	width: 500px;
 }
 
 #weekly-schedule {
@@ -591,9 +619,9 @@ p.callout {
 
 	#weekly-schedule h2 {
 		bottom: 15px;
-		font-family: Helvetica Neue,Helvetica;
+		font-family: Helvetica;
 		font-size: 28px;
-		font-weight: normal;
+		font-weight: 100;
 		left: -29px;
 		position: relative;
 		text-align: center;	
@@ -842,11 +870,17 @@ h1#tab4 {
 /*====== Community Page CSS ======== */
 
 
-
+.intro h3 strong {
+	bottom: 68px;
+	font-weight: 100;
+	position: relative;
+}
 
 #row-1 {
 	margin: auto 67px;
 	width: 900px;
+	position: relative;
+	bottom: 44px;
 }
 
 	#row-1 ul {
