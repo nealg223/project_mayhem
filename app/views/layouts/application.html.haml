@@ -1,12 +1,13 @@
 !!!
 %html
   %head
-    %title ProjectMayhem
+    %title Code Academy
     = csrf_meta_tag
     = render 'layouts/stylesheets'
-    = render 'layouts/nav'
     = render 'layouts/javascripts'
   %body
+    %header
+      = render 'layouts/nav'
     = yield
   %footer
     = render 'layouts/footer'

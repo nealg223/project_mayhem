@@ -801,6 +801,11 @@ h1#tab4 {
 		width: 204px;
 		margin-left: 35px;
 	}
+	
+		#instructor li p a {
+			float: none;
+			margin-left: 0px;
+		}
 
 	li.content {
 		float: left;
@@ -979,8 +984,49 @@ h3#more-videos {
 	font-size: 24px;
 	text-align: center;
 	margin-bottom: 75px;
+}
+
+#chicago-quotes {
+	
 }	
 
+#chicago-quotes p.callout {
+	font-size: 18px;
+	position: relative;
+	top: -13px;
+	border: none;
+	padding-bottom: -10px;	
+}
+
+	#chicago-quotes p.callout .troy {
+		margin-bottom: 0px;
+		margin-top: -15px;
+	}
+
+#chicago-quotes p.callout em {
+	display: block;
+	font-size: 16px;
+	left: 27px;
+	position: relative;
+	text-align: left;
+	top: -36px;
+}
+
+
+	#chicago-quotes .left {
+		width: 450px;
+		height: 171px;
+	}
+	
+	#chicago-quotes .right {
+		width: 450px;
+		height: 171px;
+	}
+	
+	#chicago-quotes p.callout .right {
+		margin-bottom: -19px;
+	}
+	
 	
 /* ============= Apply Page =========== */
 
@@ -994,13 +1040,13 @@ h3#more-videos {
 
 #apply p.callout {
 	border-left: 0 none;
-	font-size: 20px;
-	left: 25px;
-	margin-bottom: -57px;
-	position: relative;
-	top: -14px;
-	width: 410px;
+	font-size: 18px;
 	height: 251px;
+	left: 25px;
+	margin-bottom: -64px;
+	position: relative;
+	top: -22px;
+	width: 410px;
 }
 
 	#apply p.callout em {
