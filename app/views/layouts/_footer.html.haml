@@ -4,12 +4,11 @@
       %ul
         / %li= link_to 'Download brochure', "/pdf/brochure.pdf" 
         /%li= link_to 'Get more information', new_information_request_path
+        %li= link_to "FAQ", faq_path
+        %li 
+          %a{:href => "mailto:contact@codeacademy.org"} Email Us
         %li
           %a{:href => "http://twitter.com/#!/codeacademy"} Twitter
         %li 
-          %a{:href => "http://www.facebook.com/pages/Code-Academy/156565477744131"} Facebook
-        %li 
-          %a{:href => "mailto:contact@codeacademy.org"} Email Us
-        %li= link_to "FAQ", faq_path
-     
+          %a{:href => "http://www.facebook.com/pages/Code-Academy/156565477744131"} Facebook    
       %div{:style => "clear:both;"}
