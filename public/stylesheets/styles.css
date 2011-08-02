@@ -801,6 +801,11 @@ h1#tab4 {
 		width: 204px;
 		margin-left: 35px;
 	}
+	
+		#instructor li p a {
+			float: none;
+			margin-left: 0px;
+		}
 
 	li.content {
 		float: left;
