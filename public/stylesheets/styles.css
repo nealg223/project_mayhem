@@ -367,6 +367,10 @@ nav {
 		margin-top: -20px;
 	}
 	
+		#splash-1 a:hover h1 {
+			color: #2A6DB7;
+		}
+	
 	#splash-1 h3 {
 		font-family: Helvetica;
 		font-size: 30px;
