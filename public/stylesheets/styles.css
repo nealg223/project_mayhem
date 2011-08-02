@@ -733,6 +733,7 @@ h1#tab4 {
 	width: 960px;
 	margin: 0 auto;
 	text-align: center;
+	height: 166px;
 }
 
 	.intro h3 {
@@ -742,6 +743,7 @@ h1#tab4 {
 		margin: 25px 0;
 		text-align: center;
 	}
+
 	
 	li.bio {
 		background-image: none;
@@ -765,9 +767,13 @@ h1#tab4 {
 			
 			li.bio .role {
 				bottom: 18px;
+				display: block;
+				font-size: 14px;
 				font-weight: 100;
-				position: relative;
 				left: 10px;
+				line-height: 1.2;
+				position: relative;
+				width: 110px;
 			}
 		
 
@@ -849,15 +855,20 @@ h1#tab4 {
 	}
 	
 	#leadership li.bio {
-		margin-top: 50px;
+		margin-top: 25px;
+	}
+	
+	#leadership li.bio .fn {
+		color: #0973BA;
 	}
 	
 	#leadership li.bio .role {
 		bottom: -1px;
 		color: black;
 		font-weight: 100;
-		left: 1px;
+		left: 19px;
 		position: relative;
+		text-align: center;
 	}
 
 .cl-15 {
@@ -885,7 +896,6 @@ h1#tab4 {
 	margin: auto 67px;
 	width: 900px;
 	position: relative;
-	bottom: 44px;
 }
 
 	#row-1 ul {
@@ -919,7 +929,7 @@ h1#tab4 {
 	
 	#advisers li.bio .role {
 		font-size: 13px;
-		left: 0;
+		left: 8px;
 		position: relative;
 		top: 5px;
 	}
