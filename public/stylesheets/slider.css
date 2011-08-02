@@ -114,9 +114,10 @@ p.intro { border-bottom: 1px solid #ccc; margin-bottom: 20px; padding: 20px 0 30
 }
 
 .stripNavL, .stripNavR { /* The left and right arrows */
-  position: absolute;
-  top: 230px;
-  text-indent: -9000em;
+  	margin-top: -20px;
+	position: fixed;
+	text-indent: -9000em;
+	top: 50%;
 }
 
 .stripNavL a, .stripNavR a {

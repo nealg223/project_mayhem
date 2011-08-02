@@ -1,12 +1,22 @@
 #apply.container
-  #apply-header
+  #apply-splash
+    %img{:alt => "Code Academy", :src => "images/ca_logo_copy_03.png"}/
+    %div{:style => "clear:both;"}
+  #apply-header.Fr
     %h1 Join the builders movement.
-    .cl-15
-  #course-info
     %h3 Only 12 people will be accepted.
-    %h3 You can decide to commit once you're accepted, so there's no reason not to throw your hat in the ring.
+  #apply-button
+    %a{:href => "http://www.formstack.com/forms/?1096528-6YgVaD43vw"}
+      %button.button.red Apply Now!
+    %a{:href => "http://www.formstack.com/forms/?1096528-6YgVaD43vw"}
+    /%h3 You can decide to commit once you're accepted, so there's no reason not to throw your hat in the ring.
+    .cl-15
+  %div{:style => "clear:both;"}
+  #timeline-title
+    %h3 Application Timeline
+  #app-timeline
     %p
-      %strong August 26 -
+      %strong August 26th -
       Applications close at 11:59PM.   
       Tuition is $6000. 
     %p 
@@ -22,15 +32,12 @@
     %p 
       %strong October 3rd -
       Class starts at Obtiva, located at 566 West Adams Suite 400 in downtown Chicago.
-    .cl-15
+  .cl-15
+  #app-info
     %p The total class hours with the instructor will be 3 days a week at 4 hours a day, with the expectation that you also work on your projects outside of that time.
     %p The specific dates and time of day will be determined based on the accepted applicant's preferences/availability as indicated at the end of the application.
     %p Good Luck!
     .cl-15
-  #apply-button
-    %a{:href => "http://www.formstack.com/forms/?1096528-6YgVaD43vw"}
-      %button.button.red Apply Now!
-    %a{:href => "http://www.formstack.com/forms/?1096528-6YgVaD43vw"}
-      %img{:href => "Apply Icon", :src => "images/apply_now_box_03.png"}/
+      /%img{:href => "Apply Icon", :src => "images/apply_now_box_03.png"}/
     .cl-50
   %div{:style => "clear:both;"}

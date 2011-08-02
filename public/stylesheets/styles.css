@@ -115,6 +115,10 @@ p {
 	letter-spacing: 0.3px;
 }
 
+p strong {
+	font-weight: 600;
+}
+
 ul li {
 	list-style-type: none;
 }
@@ -281,6 +285,16 @@ nav {
 		top: 35px;
 	}
 	
+	#mast-body #apply-button {
+		bottom: 203px;
+		left: 108px;
+		position: relative;
+	}
+	
+		#mast-body #apply-button .button {
+			font-size: 30px;
+		}
+	
 	p#sell, p#tag {
 		bottom: 159px;
 		color: white;
@@ -328,7 +342,11 @@ nav {
   height:710px;
   background-color:#fff;
 }
-#solve.inner {
+
+.solve.inner h3 strong {
+	bottom: 26px;
+	color: black;
+	position: relative;
 }
 
 	#splash-1 {
@@ -423,11 +441,6 @@ nav {
 		width: 767px;
 	}
 
-.Fr {
-	float: right;
-	display: block;
-	width: 500px;
-}
 
 
 
@@ -781,8 +794,22 @@ h1#tab4 {
 
 
 /* Mike, these classes should all be inheriting their structure and style from a base class so that we don't repeat ourselves */
-#leadership {
+#leadership li div {
+	background: url(../images/Untitled-1.jpg) 0 0 no-repeat;
+	height: 177px;
+	width: 148px;
 }
+#leadership li div.mike {
+	background-position: -148px 0;
+}
+#leadership li div.claire {
+	background-position: -296px 0;
+}
+#leadership li div.maggie {
+	background-position: -444px 0;
+}
+
+
 
 	#leadership ul {
 		padding-left: 120px;
@@ -919,7 +946,7 @@ h3#more-videos {
 	cursor: pointer;
 	text-align: center;
 	text-decoration: none;
-	font: 43px/100% Arial, Helvetica, sans-serif;
+	font: 35px/100% Arial, Helvetica, sans-serif;
 	padding: .5em 2em .55em;
 	text-shadow: 0 1px 1px rgba(0,0,0,.3);
 	-webkit-border-radius: .5em; 
@@ -945,27 +972,86 @@ h3#more-videos {
 	background: #d81b21;
 	background: -webkit-gradient(linear, left top, left bottom, from(#ed1c24), to(#aa1317));
 	background: -moz-linear-gradient(top,  #ed1c24,  #aa1317);
-	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ed1c24', endColorstr='#aa1317');
 }
 .red:hover {
 	background: #b61318;
 	background: -webkit-gradient(linear, left top, left bottom, from(#c9151b), to(#a11115));
 	background: -moz-linear-gradient(top,  #c9151b,  #a11115);
-	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#c9151b', endColorstr='#a11115');
 }
 .red:active {
 	color: #de898c;
 	background: -webkit-gradient(linear, left top, left bottom, from(#aa1317), to(#ed1c24));
 	background: -moz-linear-gradient(top,  #aa1317,  #ed1c24);
-	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#aa1317', endColorstr='#ed1c24');
 }
 
+.Fr {
+	float: right;
+	display: block;
+	width: 610px;
+}
 
+#apply-header {
+	position: relative;
+	text-align: center;
+	top: 25px;
+}
+	#apply-header .button.red {
+		position: relative;
+	}
 
 #apply-header h1 {
 	font-size: 50px;
 	text-align: center;
-	padding: 20px;
+	padding: 10px;
+}
+
+	#apply-header h3 {
+		text-align: center;
+		font-size: 22px;
+		color: rgba(0, 0, 0, 0.8);
+	}
+
+#app-timeline {
+	border: 1px solid rgba(0,0,0, 0.2);
+	width: 600px;
+	display: block;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 57px;
+}
+
+#app-timeline p strong {
+	color: #c32127;
+}
+
+	#timeline-title {
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		text-align: center;
+		top: 70px;
+		width: 300px;
+	}
+
+	#timeline-title h3 {
+		padding: 8px;
+		text-align: center;
+		background: #C32127;
+		color: white;
+		text-shadow: 1px 2px 2px #000;
+	}
+
+#apply-splash {
+	float: left;
+	left: 100px;
+	position: relative;
+	top: 25px;
+	width: 270px;
+}
+
+#app-info {
+	
 }
 
 #app-deadline {
@@ -1003,6 +1089,8 @@ h3#more-videos {
 	position: relative;
 	text-align: center;
 	text-decoration: none;
+	left: 54px;
+	top: 52px;
 	
 }
 

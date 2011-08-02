@@ -9,10 +9,12 @@
     #mast-body
       %img{:alt => "Code Academy", :src => "images/logo_tagline_03.png"}/
       %p#sell Beginner-focused.  12 weeks.  Downtown Chicago. 
-      %p#tag Code Academy is a game changer for your career.
-    #buttons
-      %a{:href => "/apply"}
-        %img#submit{:alt => "Submit Application", :src => "images/start_app_03.png"}/
+      %p#tag 
+        %strong Code Academy 
+        is a game changer for your career.
+      #apply-button
+        %a{:href => "http://www.formstack.com/forms/?1096528-6YgVaD43vw"}
+          %button.button.red Apply Now!
       %a{:href => new_information_request_path }
         /%img{:alt => "Get Program Info", :src => "images/get_program_info_03.png"}/
     /= image_tag '../images/mast_temp.jpg'
@@ -26,7 +28,10 @@
         %img#icons{:alt => "Code Academy", :src => "images/lbs_icons_03.png"}/
       %h1 Learn. Build. Solve.
       .cl-15
-      %h3 Coding is not just for the chosen few. Anyone can learn with the right environment, resources and dedication - we created Code Academy to do just that.
+      %h3 Coding is not just for the chosen few. Anyone can learn with the right environment, resources and dedication - 
+      %br
+      %h3 
+        %strong we created Code Academy to do just that.
       %a{:href => "/program#1"}
         %img#program-preview{:alt => "Program information", :src => "images/program_preview_03.png"}/
       #options
