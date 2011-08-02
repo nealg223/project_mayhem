@@ -611,6 +611,11 @@ p.callout em {
 	width: 500px;
 }
 
+.left {
+	float: left;
+	width: 400px;
+}
+
 #weekly-schedule {
 	clear: both;
 	margin: 0 auto;
@@ -1047,7 +1052,7 @@ h3#more-videos {
 
 #app-timeline {
 	border: 1px solid rgba(0,0,0, 0.2);
-	width: 600px;
+	width: 500px;
 	display: block;
 	padding: 10px;
 	margin-left: auto;
@@ -1066,6 +1071,7 @@ h3#more-videos {
 		text-align: center;
 		top: 70px;
 		width: 300px;
+		right: 219px;
 	}
 
 	#timeline-title h3 {
