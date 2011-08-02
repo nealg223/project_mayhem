@@ -992,6 +992,14 @@ h3#more-videos {
 	min-height: 800px;
 }
 
+#apply p.callout {
+	border-left: 0 none;
+	left: 25px;
+	position: relative;
+	top: 65px;
+	width: 410px;
+}
+
 .button {
 	display: inline-block;
 	zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
