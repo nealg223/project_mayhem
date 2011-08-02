@@ -14,6 +14,7 @@ ProjectMayhem::Application.routes.draw do
   match '/apply',     :to => 'pages#apply'
   match '/sandbox',   :to => 'pages#sandbox'  
   match '/download',  :to => 'users#download'
+  match '/faq',       :to => 'pages#faq'
   match "email_registration_not_found" => "pages#email_registration_not_found"
 
 
