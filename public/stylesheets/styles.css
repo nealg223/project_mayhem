@@ -1264,12 +1264,6 @@ footer {
 }
 
 
-/* ========================================== */
-/* ! Provide higher res assets for iPhone 4   */
-/* ========================================== */
-
-
-
 /* Smartphones (landscape) ----------- */
 @media only screen and (min-width : 321px) {
 
@@ -1281,7 +1275,8 @@ footer {
 @media only screen and (max-width : 320px) {
 /* Styles */
 
-	background: green;
+	body {
+		width: 320px;
 }
 
 /* iPads (portrait) ----------- */
