@@ -654,6 +654,9 @@ p.callout em {
 	text-align: center;
 }
 
+header div {
+  z-index: 1;
+}
 
 /* =========== FAQ Page =============== */
 
