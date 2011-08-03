@@ -367,7 +367,7 @@ nav {
 		margin-top: -20px;
 	}
 	
-		#splash-1 h1 a {
+		#splash-1 a h1 {
 			text-decoration: none;
 		}
 	
@@ -437,6 +437,9 @@ nav {
   .learn_best.inner {
 	margin: 0 auto;
 	position: relative;
+	background: #fff;
+	width: 885px;
+	height: 314px;
 }
 
 	#people_preview {
@@ -444,11 +447,32 @@ nav {
 		margin-left: 25px;
 		margin-top: 34px;
 		position: relative;
+		left: -14px;
 	}
+	
+	#learn-content {
+		float: right;
+		width: 500px;
+		margin-top: 40px;
+	}
+	
+		#learn-content h3 {
+			font-family: 'HelveticaLTStdBoldCondensed';
+			font-size: 39px;
+			font-weight: 100;
+			text-transform: uppercase;
+		}
+		
+		#learn-content p {
+			color:#888888;
+			font-size:21px;
+			line-height:1.2;
+		}
+	
 	#meet_team_button {
-		bottom: 97px;
+		bottom: 58px;
 		clear: both;
-		left: 99px;
+		left: 82px;
 		margin: 0 auto;
 		position: relative;
 		width: 767px;
