@@ -394,6 +394,9 @@ nav {
 		top: -30px;
 	}
 	
+	#splash-1 a:hover {
+	} 
+	
 	img#icons {
 		top: -56px;
 		position: relative;
