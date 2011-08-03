@@ -367,8 +367,13 @@ nav {
 		margin-top: -20px;
 	}
 	
+		#splash-1 h1 a {
+			text-decoration: none;
+		}
+	
 		#splash-1 a:hover h1 {
 			color: #2A6DB7;
+			text-decoration: none;
 		}
 	
 	#splash-1 h3 {
