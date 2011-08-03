@@ -63,7 +63,7 @@ this.handle.style.right="100px";
 this.handle.style.top="0px";
 this.handleAngle="0";
 this.handle.style.borderTop="0px";
-this.handle.style.position="absolute";
+this.handle.style.position="fixed";
 this.handle.onmouseover=function(){
 _2.handle.style.paddingTop="10px";
 };
