@@ -1,8 +1,15 @@
 :javascript
   jQuery(window).bind("load", function() {
-  	jQuery("div#slider1").codaSlider()
-  	// jQuery("div#slider2").codaSlider()
-  	// etc, etc. Beware of cross-linking difficulties if using multiple sliders on one page.
+    jQuery("div#slider1").codaSlider()
+    // jQuery("div#slider2").codaSlider()
+    // etc, etc. Beware of cross-linking difficulties if using multiple sliders on one page.
+    $(document).keyup(function(e) {
+      switch (e.keyCode) {
+        case 37: $('.stripNavL a').click(); break
+        case 39: $('.stripNavR a').click(); break
+        default: break
+      }
+    })
   });
 .slider-wrap
   #slider1.csw
