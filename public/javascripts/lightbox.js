@@ -4,7 +4,7 @@ this.ie=document.all;
 this.ns6=document.getElementById&&!document.all;
 this.closeHandle=document.getElementById("fsLightboxClose"+_1.form);
 this.handle=document.createElement("div");
-this.handle.style.background="red";
+this.handle.style.background="#000";
 this.handle.style.border="#FFF solid 2px";
 if(_1.handlePosition=="right"){
 this.handle.style.right="0px";
@@ -105,7 +105,7 @@ this.fadeOverlay=document.createElement("div");
 this.fadeOverlay.style.display="none";
 this.fadeOverlay.style.zIndex="1";
 this.fadeOverlay.style.position="absolute";
-this.fadeOverlay.style.background="black";
+this.fadeOverlay.style.background="#000";
 this.fadeOverlay.style.overflow="hidden";
 this.fadeOverlay.innerHTML="&nbsp";
 this.fadeOverlay.onclick=function(){
@@ -115,7 +115,7 @@ _2.hide();
 p.parentNode.insertBefore(this.fadeOverlay,p);
 var _4=document.getElementById("fsLightbox"+_1.form);
 _4.style.position="absolute";
-_4.style.background="#FFF";
+_4.style.background="#DDD";
 _4.style.zIndex="10000";
 _4.style.width="650px";
 _4.style.height="500px";
