@@ -400,18 +400,42 @@ nav {
 		left: 1px;
 	}
 	
-	img#program-preview {
+	.program-preview {
+		font-family:'HelveticaLTStdBoldCondensed';
+	}
+	
+	.program-preview h4 {
+		font-size: 27px;
+		font-weight: 100;
+		text-transform: uppercase;
+		color: white;
+		background: #C32127;
+		height: 40px;
+		width: 515px;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		padding-top: 15px;
+		text-shadow:rgba(0, 0, 0, 0.296875) 0 2px 0;
+	}
+	
+	#red-title {
+		margin-top: 40px;
+	}
+	
+	img.program-preview {
 		clear: both;
 		margin-top: 45px;
 		position: relative;
 		margin-left: 25px;
 	}
 	
+	
 #options {
 	left: 7px;
+	bottom: 15px;
 	margin: 0 auto;
 	position: relative;
-	top: -111px;
 	width: 767px;
 }
 	
@@ -424,8 +448,43 @@ nav {
 	.buttons.last {
 		margin-right: 0 !important;
 	}
+	
+	#options-buttons {
+		float: left;
+	}
 
-
+		#options-buttons a, #options-buttons p {
+			bottom:49px;
+			color:white;
+			float:right;
+			font-family:HelveticaLTStdBoldCondensed;
+			font-size:21px;
+			font-weight:400;
+			left:18px;
+			margin-left:5px;
+			margin-right:34px;
+			position:relative;
+			text-decoration:none;
+			text-shadow: 0 2px 0 #28265E;
+		}
+		
+		#options-buttons a:hover {
+			color: #bbb;
+		}
+		
+		
+		
+		#options-buttons img {
+			left:10px;
+			position:relative;
+			top:-50px;
+		}
+		
+		#schedule-img, overview-img {
+			position: relative;
+			top: 5px;
+		}
+		
 
 #learn_best {
   margin:6px 0 0 0;
@@ -433,6 +492,7 @@ nav {
   height:400px;
   padding:20px 0 0 0;
   background: #0973BA;
+  clear: both;
 }
   .learn_best.inner {
 	margin: 0 auto;

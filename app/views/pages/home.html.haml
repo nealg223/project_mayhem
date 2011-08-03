@@ -30,17 +30,25 @@
       .cl-15
       %h3 Coding is not just for the chosen few. 
       %h3 Anyone can learn with the right environment, resources and dedication.
-      %a{:href => "/program#1"}
-        %img#program-preview{:alt => "Program information", :src => "images/program_preview_03.png"}/
-      #options
-        %a{:href => "/program#1"}
-          %img.buttons{:alt => "Overview" , :src => "images/overview_button_03.png"}/
-        %a{:href => "program#2"}
-          %img.buttons{:alt => "Schedule" , :src => "images/schedule_button_03.png"}/
-        %a{:href => "program#3"}
-          %img.buttons{:alt => "Students" , :src => "images/students_button_03.png"}/
-        %a{:href => "program#4"}
-          %img.buttons.last{:alt => "Space" , :src => "images/space_button_03.png"}/
+      .program-preview
+        #red-title
+          %h4 Learn More About Our Program
+        #options
+          %a{:href => "/program#1"}
+            %img.program-preview{:alt => "Blue Base", :src => "images/blue_stripped_base_03.png"}/
+          #options-buttons
+            %a{:href => "program#4"}
+              %img.buttons.last{:alt => "Space" , :src => "images/space_button_03.png"}/
+              %p Space
+            %a{:href => "program#3"}
+              %img.buttons{:alt => "Students" , :src => "images/students_button_03.png"}/
+              %p Students
+            %a{:href => "program#2"}
+              %img.buttons#schedule-img{:alt => "Schedule" , :src => "images/schedule_button_03.png"}/
+              %p Schedule
+            %a{:href => "/program#1"}
+              %img.buttons#overview-img{:alt => "Overview" , :src => "images/overview_button_03.png"}/
+              %p Overview
 #learn_best
   .learn_best.inner
     %img#people_preview{:alt => "People Wall" , :src => "images/people_wall_03.png"}/
