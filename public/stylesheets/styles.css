@@ -423,6 +423,10 @@ nav {
 		margin-top: 40px;
 	}
 	
+		#red-title a:hover h4 {
+			color: #e5e4e4;
+		}
+	
 	img.program-preview {
 		clear: both;
 		margin-top: 45px;
@@ -468,8 +472,8 @@ nav {
 			text-shadow: 0 2px 0 #28265E;
 		}
 		
-		#options-buttons a:hover {
-			color: #bbb;
+		#options-buttons a:hover p {
+			color: #7DB1DD;
 		}
 		
 		
