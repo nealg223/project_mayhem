@@ -284,6 +284,7 @@ nav {
 	#mast-body img {
 		position: relative;
 		top: 35px;
+		left: 29px;
 	}
 	
 	#mast-body #apply-button {
@@ -303,12 +304,14 @@ nav {
 		position: relative;
 		width: 550px;
 		text-shadow:rgba(38, 31, 98, 0.496094) 0 2px 0;
-		font-size: 20px;		
+		font-size: 20px;
+		clear:both;		
 	}
 	
 	p#tag {
 		margin-top: -10px;
 	}
+	
 .splash {
 	background: #0973BA;
 	overflow: hidden;
@@ -452,6 +455,29 @@ nav {
 #home-rotator {
 	display: none;
 }
+
+.imgleft {
+	float:left;
+	width: 300px;
+}
+
+#ca-tagline h2 {
+	color: white;
+	font-family: 'HelveticaLTStdBoldCondensed';
+	font-weight: 500;
+	position: relative;
+	text-align: center;
+	text-shadow: 0 2px 0 #272260;
+	text-transform: uppercase;
+	top: 100px;
+	
+}
+
+	#ca-tagline h2 strong {
+		bottom: 28px;
+		font-size: 56px;
+		position: relative;
+	}
 
 #value-1, #value-2, #value-3, #value-4, #value-5 {
 	margin-top: 50px;
