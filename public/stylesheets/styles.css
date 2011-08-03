@@ -484,10 +484,10 @@ nav {
 			top:-50px;
 		}
 		
-		#schedule-img, overview-img {
-			position: relative;
-			top: 5px;
+		#options-buttons a#space:hover img {
+			background: url('../images/spaces_hover_03.png') no-repeat;
 		}
+	
 		
 
 #learn_best {
