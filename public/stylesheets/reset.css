@@ -11,6 +11,9 @@ article,aside,figure,figure img,figcaption,hgroup,footer,header,nav,section,vide
 a img{border:0;}
 figure{position:relative;}
 figure img{width:100%;}
+a {
+	text-decoration: none;
+}
 
 body {
 	line-height: 1;
