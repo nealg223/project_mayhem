@@ -1012,6 +1012,17 @@ h1#tab4 {
 		position: relative;
 		text-align: center;
 	}
+	
+	#start-app {
+		margin-left: auto;
+		margin-right: auto;
+		width: 960px;
+		text-align: center;
+	}
+	
+		#start-app h2 {
+			text-align: center;
+		}
 
 .cl-15 {
 	clear: both;
@@ -1023,6 +1034,12 @@ h1#tab4 {
 	clear: both;
 	font-size: 1px;
 	height: 50px;
+}
+
+.cl-35 {
+	clear: both;
+	font-size: 1px;
+	height: 35px;
 }
 
 /*====== Community Page CSS ======== */
@@ -1262,6 +1279,18 @@ h3#more-videos {
 		font-size: 22px;
 		color: rgba(0, 0, 0, 0.8);
 	}
+	
+#exclusive p, #cost p, #timeline p {
+	text-align: center;
+}	
+
+#cost {
+	
+}
+	
+#timeline {
+	
+}
 
 #app-timeline {
 	border: 1px solid rgba(0,0,0, 0.2);
@@ -1303,9 +1332,18 @@ h3#more-videos {
 	width: 270px;
 }
 
+	#what-you-get li {
+		font-size: 24px;
+		text-align: center;
+		margin-top: 10px;
+		font-weight: 100;
+	}
+
 #app-info {
 	
 }
+
+
 
 #app-deadline {
 	font-size: 22px;
