@@ -10,6 +10,15 @@
         default: break
       }
     })
+    $('.cross-link, .stripNavL a, .stripNavR a').each(function(i, el) {
+      console.log(el)
+      $(el).click(function() {
+        $(window).scrollTo('.stripNav', {
+          duration: 1000,
+          easing: 'swing'
+         })
+      })
+    })
   });
 .slider-wrap
   #slider1.csw
