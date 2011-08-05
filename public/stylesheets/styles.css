@@ -1226,6 +1226,36 @@ table.pretty caption {
 	color: white;
 }
 
+.onecol, .twocol, .threecol, .fourcol, .fivecol, .sixcol, .sevencol, .eightcol, .ninecol, .tencol, .elevencol {
+margin-right: 3.8%;
+float: left;
+min-height: 1px;
+}
+
+.row .onecol {
+width: 4.85%;
+}
+
+.row .twocol {
+width: 13.45%;
+}
+
+.row .threecol {
+width: 22.05%;
+}
+
+.row .fourcol {
+width: 30.75%;
+}
+
+.row .fivecol {
+width: 39.45%;
+}
+
+.row .sixcol {
+width: 48%;
+}
+
 /* ============= Apply Page =========== */
 
 #apply #main-footer {
@@ -1331,8 +1361,17 @@ table.pretty caption {
 		color: rgba(0, 0, 0, 0.8);
 	}
 	
+	
+#exclusive {
+	bottom: 223px;
+	float: left;
+	left: 475px;
+	position: relative;
+}
+	
 #exclusive p, #cost p, #timeline p {
 	text-align: center;
+	font-size: 16px;
 }	
 
 #cost {
@@ -1377,22 +1416,48 @@ table.pretty caption {
 
 #apply-splash {
 	float: left;
-	left: 70px;
 	position: relative;
 	top: 25px;
 	width: 270px;
 }
 
 	#what-you-get li {
-		font-size: 24px;
+		font-size: 16px;
 		text-align: center;
 		margin-top: 10px;
 		font-weight: 100;
 	}
+	
+	#what-you-get h1, #exclusive h1, #cost h1, #timeline h1 {
+		font-size: 40px;
+	}
+	
+.row {
+	height: 350px;
+	float: left;
+	margin-left: 37px;
+}
+
+#timeline {
+	bottom: 300px;
+	left: 500px;
+	position: relative;
+}
 
 #app-info {
 	
 }
+
+#early-bird {
+	left: 55px;
+	position: relative;
+	top: 39px;
+}
+	
+	#early-bird h2 {
+		text-align: center;
+		color: red;
+	}
 
 
 

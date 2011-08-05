@@ -1,89 +1,44 @@
 #apply.container
-  #apply-splash
-    %img{:alt => "Code Academy", :src => "images/ca_logo_copy_03.png"}/
-    %div{:style => "clear:both;"}
-  #apply-header.Fr
-    %h1 Join the builders movement.
-    %h3 Only 12 people will be accepted. First class begins Oct. 3.
-  #apply-button
-    %a{:href => "http://www.formstack.com/forms/?1096528-6YgVaD43vw"}
-      %button.button.red Apply Now!
-    %a{:href => "http://www.formstack.com/forms/?1096528-6YgVaD43vw"}
-    .cl-15
-  %div{:style => "clear:both;"}
+  .row
+    #apply-splash
+      %img{:alt => "Code Academy", :src => "images/ca_logo_copy_03.png"}/
+      %div{:style => "clear:both;"}
+    #apply-header.Fr
+      %h1 Join the builders movement.
+    #early-bird
+      %h2 Early Bird Special 
+      %p 
+        Save 
+        %strong $1,500 
+        if you apply 
+        %strong before August 13th. 
+        That makes tuition $4,500 for the fast-movers. So make sure to go 
+        %strong to the bottom of this page 
+        and apply today!
     .cl-50
-  #what-you-get
-    %ul
-      %h1 What You’ll Get
-      %br
-      %li Individualized Learning
-      %li 
-        %a{:href => "/staff/"} World-class 
-        instruction
-      %li Mentorship from software developers
-      %li All hardware + software included
-      %li Access to space outside of class time
-      %li Access to all optional workshops
-      %li 
-        Access to 
-        %a{:href => "/community/"} networking 
-        opportunities through Chicago
+  .row
+    #what-you-get
+      %ul.sixcol
+        %h1 What You’ll Get
+        %br
+        %li Individualized Learning with all hardware + software included
+        %li 
+          %a{:href => "/staff/"} World-class 
+          instruction and expert mentorship from software developers
+        %li Access to space outside of class time, all the optional workshops and networking opportunities throughout Chicago
     .cl-35
-  #timeline
-    %h1 Application Timeline:
-    %p
-      %strong August 26th -
-      Application deadline - Submit your application before 11:59PM!   
-    %p 
-      %strong August 28th - 
-      Interview notification - We’ll notify you of whether you’ve been asked to return for an interview.
-    %p
-      %strong September 8th - 
-      Admittance notification - You&#39;ll know whether or not you got in!
-    %p 
-      %strong October 3rd - Dec. 21
-      Class starts in downtown Chicago at a TBD location &#40;we&#39;re trying to decide which awesome space we will use - lots of options!&#41;.
+    %div{:style => "clear:both;"}
+      .cl-35
+    #timeline.sixcol
+      %h1 Application Details:
+      %p
+        %strong August 26th -
+        Application deadline - Submit your application before 11:59PM!   
+      %p 
+        %strong August 28th - 
+        Interview notification - We’ll notify you of whether you’ve been asked to return for an interview.
     .cl-35
-  #cost
-    %h1 Cost
-    %p 
-      Tuition is $6,000. It may seem like a lot - but consider that you are 
-      %strong making an investment in yourself.
-      It’s 
-      %strong 144 hours 
-      of hands-on, personalized learning that you are going to carry with you for the rest of your life. It will shift your perspective and catapult your career. You are giving yourself the power to build your dreams. If anything, $6,000 is a steal.
-    .cl-35
-  #exclusive
-    %h1 Early Bird Special 
-    %p 
-      Save 
-      %strong $1,500 
-      if you apply 
-      %strong before August 13th. 
-      That makes tuition $4,500 for the fast-movers. So make sure you apply today!
-    .cl-35
-  #quotes
-    %p.callout.left 
-      %span.opening &#8220;
-      %br
-      %strong 
-        Because of the quality of the people behind Code Academy - the people doing the work, some of the advisers - I have a ton of faith in the quality of the people who are going to come out of it on the other side.
-      %em 
-        Dave Hoover, Chief Craftsman & Principal at 
-        %a{:href => "http://obtiva.com"} Obtiva
-    %p.callout.right 
-      %span.opening &#8220;
-      %br
-      %strong 
-        Code Academy provides the intensive, immersive learning environment you just can’t get anywhere else. As a result, the students who come out of Code Academy are the kind of people we want in our company.
-        
-      %em 
-        Bernhard Kappe CEO, 
-        %a{:href => "http://pathf.com"} Pathfinder Software
-  .cl-15
-  #start-app
-    %h2 What are you waiting for?
-    %a{:href => "http://www.formstack.com/forms/?1096528-6YgVaD43vw"}
-    %button.button.red Start The App!
-  .cl-35
   %div{:style => "clear:both;"}
+  %script{:src => "http://www.formstack.com/forms/js.php?1096528-6YgVaD43vw-v2", :type => "text/javascript"}
+  %noscript
+    %a{:href => "http://www.formstack.com/forms/?1096528-6YgVaD43vw", :title => "Online Form"} Online Form - Code Academy Application
