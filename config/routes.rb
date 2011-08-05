@@ -11,11 +11,13 @@ ProjectMayhem::Application.routes.draw do
   match '/staff',     :to => 'pages#staff'
   match '/community', :to => 'pages#community'
   match '/videos',    :to => 'pages#videos'
+  match '/pricing',   :to => 'pages#pricing'
   match '/apply',     :to => 'pages#apply'
   match '/sandbox',   :to => 'pages#sandbox'  
-  match '/download',  :to => 'users#download'
   match '/faq',       :to => 'pages#faq'
   match '/lightbox',  :to => 'pages#lightbox'
+  
+  match '/download',  :to => 'users#download'
   match "email_registration_not_found" => "pages#email_registration_not_found"
 
 
