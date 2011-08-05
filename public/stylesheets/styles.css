@@ -295,7 +295,7 @@ nav {
 	}
 	
 	#mast-body #apply-button {
-		bottom: 203px;
+		bottom: 274px;
 		left: 94px;
 		position: relative;
 	}
@@ -305,7 +305,7 @@ nav {
 		}
 	
 	p#sell, p#tag {
-		bottom: 159px;
+		bottom: 194px;
 		color: white;
 		left: 399px;
 		position: relative;
@@ -576,7 +576,7 @@ nav {
 	text-align: center;
 	text-shadow: 0 2px 0 #272260;
 	text-transform: uppercase;
-	top: 100px;
+	top: 67px;
 	
 }
 
@@ -1021,10 +1021,13 @@ h1#tab4 {
 	}
 	
 	#start-app {
+		bottom: 186px;
+		left: 176px;
 		margin-left: auto;
 		margin-right: auto;
-		width: 960px;
+		position: relative;
 		text-align: center;
+		width: 960px;
 	}
 	
 		#start-app h2 {
@@ -1449,10 +1452,16 @@ width: 48%;
 }
 
 #early-bird {
-	left: 55px;
+	bottom: 148px;
+	clear: both;
+	float: right;
 	position: relative;
-	top: 39px;
+	width: 602px;
 }
+
+	#early-bird p {
+		text-align: center;
+	}
 	
 	#early-bird h2 {
 		text-align: center;
@@ -1497,7 +1506,7 @@ width: 48%;
 	text-align: center;
 	text-decoration: none;
 	left: 54px;
-	top: 52px;
+	top: 87px;
 	
 }
 
@@ -1521,6 +1530,25 @@ width: 48%;
 	
 }
 
+.fsRowBody h2 {
+	text-align: center;
+	font-size: 24px;
+}
+
+.fsForm input.fsRequired[type="text"], .fsForm input.fsRequired[type="file"], .fsForm textarea.fsRequired, .fsForm select.fsRequired {
+	text-align: center;
+}
+
+.fsForm .fsFieldRow td.fsRowBody, .fsForm .fsSpacerRow td.fsRowBody {
+    background-color: #FFFFFF;
+    text-align: center;
+	width: 600px;
+}
+
+.fsForm .fsRequiredLabel {
+    color: #FF0000;
+	font-size: 15px;
+}
 footer {
 	clear: both;
 	text-align: left;
