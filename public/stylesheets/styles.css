@@ -1181,7 +1181,51 @@ h3#more-videos {
 		margin-bottom: -19px;
 	}
 	
-	
+
+/* ============ Pricing Page =========== */
+
+#pricing-header h3#tag, #pricing h3#tag strong {
+	font-weight: 100;
+	border-top: 1px solid silver;
+	border-bottom: 1px solid silver;
+	margin: 10px 0;
+	padding: 15px 0;
+	line-height: 1.2;
+}
+
+#benchmarks h1, #college h1 {
+	font-size: 40px;
+}
+
+ul#competitors li {
+	margin-bottom: 5px;
+}
+
+table.pretty {
+  margin: 1em 1em 4em 2em;
+  background: whitesmoke;
+  border-collapse: collapse;
+}
+table.pretty th, table.pretty td {
+  border: 1px silver solid;
+  padding: 1em;
+  text-align: center;
+}
+table.pretty th {
+  background: #0973BA;
+  color: white;
+  text-align: center;
+}
+table.pretty caption {
+  margin-left: inherit;
+  margin-right: inherit;
+}
+
+.ca {
+	background: #003D76;
+	color: white;
+}
+
 /* ============= Apply Page =========== */
 
 #apply #main-footer {
