@@ -1,0 +1,11 @@
+!!!
+%html
+  %head
+    %title Code Academy
+    = csrf_meta_tag
+    %link{:href => "../images/favicon.ico", :rel => "shortcut icon"}/
+  %body
+    %header
+    = yield
+    %footer
+      = render 'layouts/footer'
