@@ -307,11 +307,11 @@ nav {
 	p#sell, p#tag {
 		bottom: 194px;
 		color: white;
-		left: 399px;
+		left: 422px;
 		position: relative;
 		width: 550px;
 		text-shadow:rgba(38, 31, 98, 0.496094) 0 2px 0;
-		font-size: 20px;
+		font-size: 17px;
 		clear:both;		
 	}
 	
@@ -582,12 +582,13 @@ nav {
 	text-shadow: 0 2px 0 #272260;
 	text-transform: uppercase;
 	top: 67px;
+	font-size: 22px;
 	
 }
 
 	#ca-tagline h2 strong {
 		bottom: 28px;
-		font-size: 56px;
+		font-size: 51px;
 		position: relative;
 	}
 
