@@ -344,13 +344,11 @@ nav {
 		}
 	
 #testimonial {
-  margin:6px 0 0 0;
+  margin:-15px 0 0 0;
   background: url(../images/8bit_bg_03.png) repeat;
   text-align:center;
 }
-#testimonial.inner {
-  
-}
+
 #solve {
   margin:6px 0 0 0;
   text-align:center;
@@ -633,10 +631,63 @@ nav {
 		text-align: center;
 	}
 	
-.testimonial.inner img {
-	padding: 15px;
+.testimonial.inner {
+	height: 124px;
+	width: 850px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
+	.testimonial.inner p {
+		position: relative;
+		top: 20px;
+	}
+
+	p.quote {
+		font-family: 'Serif12BetaRegular', Helvetica, Arial, sans-serif;
+		font-size: 17px;
+		font-style: italic;
+		font-weight: 100;
+		line-height: 1.3;
+		padding: 10px;
+		position: relative;
+		color: rgba(0,0,0,.6);
+		width: 720px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	p strong.home {
+		font-weight: normal;
+		left: 56px;
+		position: relative;
+	}
+	
+	p.quote em {
+		font-weight: 400;
+		left: 53px;
+		position: relative;
+		color: #0a74ba;
+	}
+
+	.opening, .opening-home {
+		font-size: 80px;
+		color: #418FC4;
+	}
+
+	.opening-home {
+		left: 6px;
+		position: relative;
+		top: 63px;
+	}
+	
+	.testimonial.inner img {
+		border: 3px solid white;
+		float: left;
+		left: 22px;
+		position: relative;
+		top: 20%;
+	}
 
 /* ======= Program Page CSS ======== */
 
@@ -739,11 +790,6 @@ p.callout em {
 	color: black;
 	left: 27px;
 	position: relative;
-}
-
-.opening {
-	font-size: 80px;
-	color: #418FC4;
 }
 
 .right {
