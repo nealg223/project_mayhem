@@ -6,7 +6,7 @@ class ApplicationController < ActionController::Base
   protect_from_forgery
   
   def detect_mobile_device
-    request.format = :mobile if request.user_agent =~ /Mobile/
+    request.format = :mobile if request.user_agent =~ /Mobile|Android/
   end
   
 end
