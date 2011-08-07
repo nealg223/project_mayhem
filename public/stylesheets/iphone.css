@@ -583,6 +583,7 @@ nav {
 	text-transform: uppercase;
 	top: 67px;
 	font-size: 22px;
+	margin-top: -10px;
 	
 }
 
@@ -591,6 +592,7 @@ nav {
 		font-size: 51px;
 		position: relative;
 	}
+	
 
 #value-1, #value-2, #value-3, #value-4, #value-5 {
 	margin-top: 50px;
