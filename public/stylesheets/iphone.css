@@ -62,6 +62,8 @@ body {
 	    rgb(245,245,245) 84%
 	);
 	
+	width: 100%;
+	
 	
 }
 
@@ -309,14 +311,14 @@ nav {
 		color: white;
 		left: 422px;
 		position: relative;
-		width: 550px;
+		width: 100%;
 		text-shadow:rgba(38, 31, 98, 0.496094) 0 2px 0;
 		font-size: 17px;
 		clear:both;		
 	}
 	
 	#ca-tagline {
-
+		width: 100%;
 	}
 	
 	p#tag {
