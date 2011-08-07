@@ -117,9 +117,14 @@ p {
 	margin: 15px 0;
 	color: #1c1b1b;
 	letter-spacing: 0.3px;
+	padding: 10px;
 }
 
 p strong {
 	font-weight: 600;
+}
+
+ul li {
+	list-style-type: none;
 }
 
