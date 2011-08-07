@@ -118,6 +118,9 @@ p {
 	color: #1c1b1b;
 	letter-spacing: 0.3px;
 	padding: 10px;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 p strong {
@@ -127,4 +130,29 @@ p strong {
 ul li {
 	list-style-type: none;
 }
+
+.cl-15 {
+	clear: both;
+	font-size: 1px;
+	height: 15px;
+}
+
+.cl-50 {
+	clear: both;
+	font-size: 1px;
+	height: 50px;
+}
+
+.cl-35 {
+	clear: both;
+	font-size: 1px;
+	height: 35px;
+}
+
+#disclaimer {
+	background: #003A70;
+}
+	#disclaimer p {
+		color: white;
+	}
 
