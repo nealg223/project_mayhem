@@ -504,7 +504,7 @@ nav {
 		
 
 #learn_best {
-  margin:6px 0 0 0;
+  margin: -85px 0 0;
   text-align:center;
   height:400px;
   padding:20px 0 0 0;
@@ -512,7 +512,7 @@ nav {
   clear: both;
 }
   .learn_best.inner {
-	margin: 0 auto;
+	margin: 33px auto 0;
 	position: relative;
 	background: #fff;
 	width: 885px;
@@ -1520,6 +1520,7 @@ width: 48%;
 	#early-bird h2 {
 		text-align: center;
 		color: red;
+		padding-top: 10px;
 	}
 
 
@@ -1584,10 +1585,6 @@ width: 48%;
 	
 }
 
-.fsRowBody h2 {
-	text-align: center;
-	font-size: 24px;
-}
 
 .fsForm input.fsRequired[type="text"], .fsForm input.fsRequired[type="file"], .fsForm textarea.fsRequired, .fsForm select.fsRequired {
 	text-align: center;
@@ -1611,6 +1608,10 @@ footer {
 .footer_links {
 	display: inline;
 }
+
+.fsForm .fsSectionRow .fsRowBody .fsSectionHeading {
+	text-shadow: 0px 0px 0px #fff;
+	text-align: center;
 
 
 
