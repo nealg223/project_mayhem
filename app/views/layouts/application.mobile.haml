@@ -4,7 +4,7 @@
     %title Code Academy
     = csrf_meta_tag
     %link{:href => "../images/favicon.ico", :rel => "shortcut icon"}/
-    %link{:href => "stylesheets/mobile.css"}",, :media => 'handheld'%>
+    = render 'layouts/mobile'
   %body
     %header
     = yield
