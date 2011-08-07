@@ -1,3 +1,7 @@
 body {
 	width: 100%;
 }
+
+#ca-tagline {
+	color: red;
+}
