@@ -1074,12 +1074,12 @@ h1#tab4 {
 	
 	#start-app {
 		bottom: 186px;
-		left: 116px;
+		left: 137px;
 		margin-left: auto;
 		margin-right: auto;
 		position: relative;
 		text-align: center;
-		width: 960px;
+		width: 460px;
 	}
 	
 		#start-app h2 {
@@ -1399,7 +1399,7 @@ width: 48%;
 	position: relative;
 	text-align: center;
 	top: 25px;
-	right: 50px;
+	left: 13px;
 }
 	#apply-header .button.red {
 		position: relative;
@@ -1510,7 +1510,6 @@ width: 48%;
 	float: right;
 	position: relative;
 	width: 602px;
-	right: 58px;
 }
 
 	#early-bird p {
