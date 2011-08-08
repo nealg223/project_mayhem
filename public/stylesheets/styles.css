@@ -1196,7 +1196,13 @@ h3#more-videos {
 }
 
 #chicago-quotes {
-	
+	position: relative;
+	bottom: 22px;
+}
+
+#chicago-quotes h1 {
+	border-top: 1px solid silver;
+    padding-top: 37px;
 }	
 
 #chicago-quotes p.callout {
