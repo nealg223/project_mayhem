@@ -89,49 +89,15 @@ img.program-preview{clear:both; margin-top:45px; position:relative; margin-left:
 .testimonial.inner p{position:relative; top:20px; }
 p.quote{font-family:'Serif12BetaRegular',Helvetica,Arial,sans-serif; font-size:17px; font-style:italic; font-weight:100; line-height:1.3; padding:10px; position:relative; color:rgba(0,0,0,.6); width:720px; margin-left:auto; margin-right:auto; }
 p strong.home{font-weight:normal; left:56px; position:relative; }
-
-p.quote em{
-font-weight:400; 
-left:53px; 
-position:relative; 
-color:#0a74ba; 
-}
-
-.opening, .opening-home{
-font-size:80px; 
-color:#418FC4; 
-}
-
-.opening-home{
-left:6px; 
-position:relative; 
-top:63px; 
-}
-
-.testimonial.inner img{
-border:3px solid white; 
-float:left; 
-left:22px; 
-position:relative; 
-top:20%; 
-}
+p.quote em{font-weight:400; left:53px; position:relative; color:#0a74ba; }
+.opening, .opening-home{font-size:80px; color:#418FC4; }
+.opening-home{left:6px; position:relative; top:63px; }
+.testimonial.inner img{border:3px solid white; float:left; left:22px; position:relative; top:20%; }
 
 /* ======= Program Page CSS ======== */
-.program-header{
-clear:both; 
-width:100%; 
-float:left; 
-margin-top:15px; }
-
-.program-header h2{
-vertical-align:baseline; 
-}
-
-.program-header a{
-position:relative; 
-text-decoration:none; 
-top:80px; 
-}
+.program-header{clear:both; width:100%; float:left; margin-top:15px; }
+.program-header h2{vertical-align:baseline; }
+.program-header a{position:relative; text-decoration:none; top:80px; }
 #program-header-1, #program-header-2, #program-header-3, #program-header-4, #program-header-5{
 display:inline; 
 cursor:pointer; 
@@ -185,33 +151,17 @@ margin-bottom:7px;
 padding-left:25px; 
 position:relative; }
 
-p.callout{
-bottom:280px; 
-border-left:.5px dashed rgba(0,0,0,0.4); 
-font-family:'Serif12BetaRegular'; 
-font-size:24px; 
-font-style:italic; 
-font-weight:100; 
-line-height:1.2; 
-padding:10px; 
-position:relative; 
-color:rgba(0,0,0,.6); 
-left:-20px; 
-
-}
-
-p.callout strong{
-bottom:49px; 
-font-weight:normal; 
-left:28px; 
-position:relative; }
-
+p.callout{bottom:280px; border-left:.5px dashed rgba(0,0,0,0.4); font-family:'Serif12BetaRegular', Georgia, serif; font-size:24px; font-style:italic; font-weight:100; line-height:1.2; padding:10px; position:relative; color:rgba(0,0,0,.6); left:-20px; }
+p.callout strong{bottom:49px; font-weight:normal; left:28px; position:relative; }
 p.callout em{
 bottom:40px; 
 color:black; 
 left:27px; 
 position:relative; }
 
+p.callout.right {
+	border-left: 1px dashed rgba(0,0,0,0.4);
+}
 .right{
 float:right; 
 height:250px; 
