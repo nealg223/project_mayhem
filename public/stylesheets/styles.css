@@ -22,8 +22,7 @@ ul{font-size:16px; line-height:1.3em; font-weight:normal; }
 padding-top:12px;position:relative; z-index:40000; height:60px; text-align:right; box-shadow:rgba(0,0,0,0.296875) 0 1px 5px; -moz-box-shadow:rgba(0,0,0,0.296875) 0 1px 5px; -webkit-box-shadow:rgba(0,0,0,0.296875) 0 1px 5px; }
 #logo{height:50px; padding:12.5px 0 0; position:absolute; width:270px; }
 nav{float:right; margin:0; }
-ul.header_links{}
-nav li{float:left; font-size:16px; font-family:Helvetica Neue,Helvetica,Arial,sans-serif; height:50px; line-height:35px; list-style-type:none; margin-right:25px; position:relative; letter-spacing:0.2px; text-transform:uppercase; }
+nav li{float:left; font-size:18px;height:35px; line-height:26px; list-style-type:none; margin-right:25px; margin-top:-7px; padding-bottom:20px; position:relative; top:20px; text-transform: uppercase; }
 nav ul li a{display:block; color:white; text-decoration:none; text-shadow:0px 2px 2px #000000; }
 nav li a:hover, nav li a.active{color:#7DB1DD; text-shadow:0 1px 1px #000; }
 nav li.last a{color:red; font-weight:600; text-shadow:#000000 0 1px 2px; }
@@ -31,7 +30,6 @@ nav li.last a{color:red; font-weight:600; text-shadow:#000000 0 1px 2px; }
 height:90px; border-top:3px solid rgba(0,0,0,0.2);text-align:left; position:relative; bottom:0; width:100%; padding:0; margin-bottom:-52px; }
 .wrapper{margin:0 auto; width:960px; }
 .wrapper h2{margin-top:26px; }
-nav li{float:left; font-size:18px;height:35px; line-height:26px; list-style-type:none; margin-right:25px; margin-top:-7px; padding-bottom:20px; position:relative; top:20px; }
 #mast-wrapper{height:400px; /*background:url(../images/mast_bg.gif) repeat-x; */}
 #mast-body{text-align:center; }
 #mast-body img{position:relative; top:35px; left:29px; }
