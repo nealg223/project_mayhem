@@ -3,6 +3,9 @@
   %head
     %title Code Academy - Learn Ruby on Rails. 
     = csrf_meta_tag
+    = yield :html_description
+    - content_for :html_description do 
+      Code Academy is a 12-week on-site program teaches beginners Ruby on Rails.
     %link{:href => "../images/favicon.ico", :rel => "shortcut icon"}/
     = render 'layouts/stylesheets'
     = render 'layouts/javascripts'
