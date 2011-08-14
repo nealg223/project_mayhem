@@ -1,38 +1,33 @@
 #apply.container
-  .row
-    #apply-splash
-      %img{:alt => "Code Academy", :src => "images/ca_logo_copy_03.png"}/
-      %div{:style => "clear:both;"}
-    #apply-header.Fr
+  #apply-splash
+    #apply-header
       %h1 Join the builders movement.
-      %div{:style => "clear:both;"}
+    .cl-15
+    %img{:alt => "Code Academy", :src => "images/ca_logo_copy_03.png"}/
+    %div{:style => "clear:both;"}
     .cl-50
-    #start-app
-      %a{:href => "#do-app"}
-        %button.button.red Apply Now!
-  .cl-50
   .row
     #what-you-get
-      %ul.sixcol
-        %h1 What You’ll Get
-        %br
+      %ul.fivecol
+        %h2 What You’ll Get
         %li Individualized Learning with all hardware + software included
         %li 
           %a{:href => "/staff/"} World-class 
           instruction and expert mentorship from software developers
         %li Access to space outside of class time, all the optional workshops and networking opportunities throughout Chicago
-    .cl-35
-    %div{:style => "clear:both;"}
-      .cl-35
-    #timeline.sixcol
-      %h1 Application Details:
+  .row.right
+    #timeline.fivecol
+      %h2 Application Details:
       %p
         %strong August 26th -
         Application deadline - Submit your application before 11:59PM!   
       %p 
         %strong August 28th - 
         Interview notification - We’ll notify you of whether you’ve been asked to return for an interview.
-  %div{:style => "clear:both;"}
+  #start-app
+    %a{:href => "#do-app"}
+      %button.button.red Apply Now!
+    .cl-15
   #do-app
     %script{:src => "http://www.formstack.com/forms/js.php?1096528-6YgVaD43vw-v2", :type => "text/javascript"}
     %noscript
