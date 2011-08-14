@@ -109,7 +109,7 @@ h3#lead{font-family:Helvetica,'Serif12BetaRegular',sans-serif; font-weight:600; 
 #part-4 h3{margin-bottom:-8px; margin-top:25px; }
 #skills li, #build li{background:url("../images/small-hashrocket_03.png") no-repeat scroll 1px 50% transparent; margin-bottom:7px; padding-left:25px; position:relative; }
 p.callout{bottom:280px; border-left:.5px dashed rgba(0,0,0,0.4); font-family:'Serif12BetaRegular', Georgia, serif; font-size:24px; font-style:italic; font-weight:100; line-height:1.2; padding:10px; position:relative; color:rgba(0,0,0,.6); left:-20px; }
-p.callout strong{bottom:49px; font-weight:normal; left:28px; position:relative; }
+p.callout strong{bottom:49px; font-weight:normal; left:28px; position:relative; font-size: 15px;}
 p.callout em{bottom:40px; color:black; left:27px; position:relative; }
 p.callout.right {border-left: 1px dashed rgba(0,0,0,0.4);}
 .right{float:right; height:250px; width:500px; }
