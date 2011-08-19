@@ -123,7 +123,7 @@ p.intro { border-bottom: 1px solid #ccc; margin-bottom: 20px; padding: 20px 0 30
 .stripNavL a, .stripNavR a {
   display: block;
   height: 40px;
-  width: 40px;
+  width: 63px;
 }
 
 .stripNavL {
@@ -135,11 +135,11 @@ p.intro { border-bottom: 1px solid #ccc; margin-bottom: 20px; padding: 20px 0 30
 }
 
 .stripNavL {
-	background: url("../images/arrow-left.gif") no-repeat center;
+	background: url("../images/left_03.gif") no-repeat center;
 }
 
 .stripNavR {
-	background: url("../images/arrow-right.gif") no-repeat center;
+	background: url("../images/red_03.gif") no-repeat center;
 }
 
 p#cross-links { text-align: center }
