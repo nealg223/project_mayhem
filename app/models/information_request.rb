@@ -1,13 +1,13 @@
 class InformationRequest < ActiveRecord::Base
-  validates_presence_of :name, :email
   attr_accessible :name, :email
   
-  email_regex = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+  EMAIL_PATTERN = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+  MAXIMUM_NAME_LENGTH = 50
   
   validates :name,  :presence => true,
-                    :length	  => { :maximum => 50 }
+                    :length	  => { :maximum => MAXIMUM_NAME_LENGTH }
                     
   validates :email, :presence => true,
-                    :format	  => { :with => email_regex },
+                    :format	  => { :with => EMAIL_PATTERN },
                     :uniqueness => { :case_sensitive => false }
 end
