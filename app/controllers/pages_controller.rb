@@ -1,5 +1,4 @@
-class PagesController < ApplicationController
-  
+class PagesController < ApplicationController  
   def home
     respond_to do |format|
       format.html
@@ -10,6 +9,4 @@ class PagesController < ApplicationController
   def lightbox
     render :layout => nil
   end
-  
-  
 end
