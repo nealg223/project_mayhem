@@ -16,4 +16,4 @@
     %footer
       = render 'layouts/footer'
     = render 'layouts/analytics'
-    = render 'layouts/lightbox' unless current_page?({:action => :apply})
+    = render 'layouts/lightbox' unless params[:action] == 'apply'
