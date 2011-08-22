@@ -7,13 +7,13 @@
     - content_for :html_description do 
       Code Academy is a 12-week on-site program teaches beginners Ruby on Rails.
     %link{:href => "../images/favicon.ico", :rel => "shortcut icon"}/
-    = render 'layouts/stylesheets'
-    = render 'layouts/javascripts'
+    = render 'shared/stylesheets'
+    = render 'shared/javascripts'
   %body
     %header
-      = render 'layouts/nav'
+      = render 'shared/nav'
     = yield
     %footer
-      = render 'layouts/footer'
-    = render 'layouts/analytics'
-    = render 'layouts/lightbox' unless params[:action] == 'apply'
+      = render 'shared/footer'
+    = render 'shared/analytics'
+    = render 'shared/lightbox' unless params[:action] == 'apply'
