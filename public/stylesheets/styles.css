@@ -170,12 +170,13 @@ li.content p{font-family:Helvetica,Arial,sans-serif; }
 #leadership li div.claire{background-position:-296px 0; }
 #leadership li div.maggie{background-position:-444px 0; }
 #leadership ul{padding-left:120px; }
-#leadership li.bio{margin-top:25px; }
+#leadership li.bio{left: -36px;margin-top: 25px;position: relative; }
 #leadership li.bio .fn{color:#0973BA; }
 #leadership li.bio .role{bottom:-1px; color:black; font-weight:100; left:19px; position:relative; text-align:center; }
 .cl-15{clear:both; font-size:1px; height:15px; }
 .cl-50{clear:both; font-size:1px; height:50px; }
 .cl-35{clear:both; font-size:1px; height:35px; }
+#leadership.rounded-box {width: 690px;}
 
 /*====== Community Page CSS ======== */
 .intro h3 strong{bottom:68px; font-weight:100; position:relative; }
