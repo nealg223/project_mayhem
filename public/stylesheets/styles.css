@@ -34,7 +34,7 @@ height:90px; border-top:3px solid rgba(0,0,0,0.2);text-align:left; position:rela
 #mast-body{text-align:center; }
 #mast-body img{position:relative; top:35px; left:29px; }
 #mast-body #apply-button{bottom: 181px;left: 151px;position: relative;width: 50%;}
-#mast-body #apply-button .button{font-size:15px; }
+#mast-body #apply-button .button{font-size:18px; line-height: 24px; }
 p#sell, p#tag{bottom:194px; color:white; left:422px; position:relative; width:550px; text-shadow:rgba(38,31,98,0.496094) 0 2px 0; font-size:17px; clear:both; }
 p#tag{margin-top:-10px; }
 .splash{background:#0973BA; overflow:hidden; }
@@ -73,6 +73,7 @@ img.program-preview{clear:both; margin-top:45px; position:relative; margin-left:
 #meet_team_button{bottom:58px; clear:both; left:82px; margin:0 auto; position:relative; width:767px; }
 
 /* ============= Home Page CSS - Part 1 ============= */
+#apply-button {color: white; line-height: 24px;}
 #home-rotator{display:none; }
 .imgleft{float:left; width:300px; }
 #ca-tagline h2{color:white; font-family:'HelveticaLTStdBoldCondensed',Helvetica,Arial,sans-serif; font-weight:500; position:relative; text-align:center; text-shadow:0 2px 0 #272260; text-transform:uppercase; top:67px; font-size:22px; }
